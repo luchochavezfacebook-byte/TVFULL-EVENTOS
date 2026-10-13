@@ -25,6 +25,7 @@ AGENDA_URLS = (
     'https://www.ole.com.ar/agenda-deportiva',
     'https://movil.ole.com.ar/agenda-deportiva',
     'https://buscador.ole.com.ar/agenda-deportiva',
+    'https://juegos.ole.com.ar/agenda-deportiva',
 )
 MESES = dict(zip(
     ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto',

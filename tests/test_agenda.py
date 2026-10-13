@@ -78,8 +78,8 @@ class Tests(unittest.TestCase):
   <h2>Martes 13 de octubre de 2026</h2><h3>Sabah</h3>
   <div>13:45</div><h3>Slavia Praga</h3><p>Más datos</p>
   <span>ESPN 2 Disney + Premium DGO</span>'''
-  urls=['www.ole.com.ar', 'movil.ole.com.ar', 'buscador.ole.com.ar']
-  fixtures=dict(zip(urls,[first,second,third]))
+  urls=['www.ole.com.ar', 'movil.ole.com.ar', 'buscador.ole.com.ar', 'juegos.ole.com.ar']
+  fixtures=dict(zip(urls,[first,second,third,first]))
   class Response(io.BytesIO):
    status=200
    headers={'Content-Type':'text/html; charset=utf-8'}
@@ -90,7 +90,7 @@ class Tests(unittest.TestCase):
    return Response(fixtures[hostname].encode('utf-8'))
   with mock.patch('actualizar_agenda.urllib.request.urlopen', side_effect=fake_urlopen):
    merged=download_ole(self.now)
-  self.assertEqual(len(requests),3)
+  self.assertEqual(len(requests),4)
   self.assertEqual(len(merged),4)
   self.assertEqual(sum('Sarmiento vs River Plate'==e['title'] for e in merged),1)
   self.assertIn('Sabah vs Slavia Praga',[e['title'] for e in merged])
