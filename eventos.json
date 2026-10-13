@@ -36,28 +36,6 @@
       ]
     },
     {
-      "id": "agenda-2026-10-14-real-betis-fc-porto",
-      "title": "Real Betis vs FC Porto",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T16:00:00-03:00",
-      "show_from": "2026-10-14T08:00:00-03:00",
-      "show_until": "2026-10-14T19:30:00-03:00",
-      "channel_names": [
-        "Fox Sports 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-14-slovan-bratislava-stuttgart",
-      "title": "Slovan Bratislava vs Stuttgart",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T16:00:00-03:00",
-      "show_from": "2026-10-14T08:00:00-03:00",
-      "show_until": "2026-10-14T19:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-10-14-aston-villa-fenerbahce",
       "title": "Aston Villa vs Fenerbahçe",
       "image": "imagenes/agenda.webp",
@@ -80,6 +58,17 @@
       ]
     },
     {
+      "id": "agenda-2026-10-14-real-betis-fc-porto",
+      "title": "Real Betis vs FC Porto",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-14T16:00:00-03:00",
+      "show_from": "2026-10-14T08:00:00-03:00",
+      "show_until": "2026-10-14T19:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
       "id": "agenda-2026-10-14-roma-real-madrid",
       "title": "Roma vs Real Madrid",
       "image": "imagenes/agenda.webp",
@@ -91,14 +80,14 @@
       ]
     },
     {
-      "id": "agenda-2026-10-14-sarmiento-river-plate",
-      "title": "Sarmiento vs River Plate",
+      "id": "agenda-2026-10-14-slovan-bratislava-stuttgart",
+      "title": "Slovan Bratislava vs Stuttgart",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T19:00:00-03:00",
-      "show_from": "2026-10-14T11:00:00-03:00",
-      "show_until": "2026-10-14T22:30:00-03:00",
+      "starts_at": "2026-10-14T16:00:00-03:00",
+      "show_from": "2026-10-14T08:00:00-03:00",
+      "show_until": "2026-10-14T19:30:00-03:00",
       "channel_names": [
-        "TNT Sports Premium"
+        "ESPN 4"
       ]
     },
     {
@@ -113,14 +102,14 @@
       ]
     },
     {
-      "id": "agenda-2026-10-15-union-saint-gilloise-real-sociedad",
-      "title": "Union Saint-Gilloise vs Real Sociedad",
+      "id": "agenda-2026-10-14-sarmiento-river-plate",
+      "title": "Sarmiento vs River Plate",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-15T13:45:00-03:00",
-      "show_from": "2026-10-15T05:45:00-03:00",
-      "show_until": "2026-10-15T17:15:00-03:00",
+      "starts_at": "2026-10-14T19:00:00-03:00",
+      "show_from": "2026-10-14T11:00:00-03:00",
+      "show_until": "2026-10-14T22:30:00-03:00",
       "channel_names": [
-        "ESPN 4"
+        "TNT Sports Premium"
       ]
     },
     {
@@ -157,12 +146,12 @@
       ]
     },
     {
-      "id": "agenda-2026-10-15-bournemouth-sturm-graz",
-      "title": "Bournemouth vs Sturm Graz",
+      "id": "agenda-2026-10-15-union-saint-gilloise-real-sociedad",
+      "title": "Union Saint-Gilloise vs Real Sociedad",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-15T16:00:00-03:00",
-      "show_from": "2026-10-15T08:00:00-03:00",
-      "show_until": "2026-10-15T19:30:00-03:00",
+      "starts_at": "2026-10-15T13:45:00-03:00",
+      "show_from": "2026-10-15T05:45:00-03:00",
+      "show_until": "2026-10-15T17:15:00-03:00",
       "channel_names": [
         "ESPN 4"
       ]
@@ -176,6 +165,17 @@
       "show_until": "2026-10-15T19:30:00-03:00",
       "channel_names": [
         "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-15-bournemouth-sturm-graz",
+      "title": "Bournemouth vs Sturm Graz",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-15T16:00:00-03:00",
+      "show_from": "2026-10-15T08:00:00-03:00",
+      "show_until": "2026-10-15T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
       ]
     },
     {
