@@ -198,7 +198,20 @@ def download_ole() -> str:
                 html=raw.decode('utf-8',errors='replace')
                 if 'agenda' not in nrm(html[:100000]):
                     raise ValueError('Página diferente de la agenda')
-                print(f'Fuente: {url}, {len(raw)} bytes')
+                games=parse_html(html,dt.datetime.now(TIMEZONE))
+                print(f'Fuente {url}: {len(raw)} bytes, {len(games)} partidos TV reconocidos')
+                if not games:
+                    soup=BeautifulSoup(html,'html.parser')
+                    strings=list(soup.stripped_strings)
+                    print('Diagnostico: h2=',len(soup.select('h2')),
+                          'h3=',len(soup.select('h3')),
+                          'fechas=',sum(_day(t) is not None for t in strings),
+                          'horas=',sum(TIME_RE.fullmatch(t) is not None for t in strings))
+                    for needle in ['Boca Juniors', 'River Plate']:
+                        if any(needle in t for t in strings):
+                            i=next(i for i,t in enumerate(strings) if needle in t)
+                            print('Contexto',needle,[v[:55] for v in strings[max(0,i-3):i+9]])
+                    continue
                 return html
         except Exception as e:
             failures.append(f'{url}: {type(e).__name__} {str(e)[:120]}')
