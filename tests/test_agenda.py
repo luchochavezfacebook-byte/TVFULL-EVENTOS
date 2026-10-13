@@ -3,6 +3,7 @@ import importlib.util
 import tempfile
 import unittest
 import io
+import json
 from unittest import mock
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -10,7 +11,7 @@ from zoneinfo import ZoneInfo
 ROOT=Path(__file__).resolve().parents[1]
 import sys
 sys.path.insert(0,str(ROOT/'scripts'))
-from actualizar_agenda import channels, parse_html, merged_events, fixture_key, download_ole
+from actualizar_agenda import channels, parse_html, merged_events, fixture_key, download_ole, previous_auto_events
 
 EXAMPLE='''<html><body>
 <h1>Agenda deportiva</h1>
@@ -95,6 +96,36 @@ class Tests(unittest.TestCase):
   self.assertEqual(sum('Sarmiento vs River Plate'==e['title'] for e in merged),1)
   self.assertIn('Sabah vs Slavia Praga',[e['title'] for e in merged])
   self.assertIn('Boca Juniors vs Vasco da Gama',[e['title'] for e in merged])
+
+ def test_keep_previous_auto_only_until_expiry(self):
+  with tempfile.TemporaryDirectory() as folder:
+   root=Path(folder)
+   (root/'imagenes').mkdir()
+   (root/'imagenes/agenda.webp').write_bytes(b'fixture')
+   started=self.now.replace(hour=16,minute=0)
+   retained={'id':'agenda-2026-10-13-arsenal-lille',
+    'title':'Arsenal vs Lille','image':'imagenes/agenda.webp',
+    'starts_at':started.isoformat(timespec='seconds'),
+    'show_from':(started-dt.timedelta(hours=8)).isoformat(timespec='seconds'),
+    'show_until':(started+dt.timedelta(hours=3,minutes=30)).isoformat(timespec='seconds'),
+    'channel_names':['ESPN 4']}
+   removed_manual={**retained,'id':'manually-deleted-card'}
+   expired={**retained,'id':'agenda-old-expired',
+    'show_until':(started+dt.timedelta(minutes=30)).isoformat(timespec='seconds')}
+   data={'version':1,'timezone':'America/Argentina/Buenos_Aires',
+         'events':[retained,removed_manual,expired]}
+   (root/'eventos.json').write_text(json.dumps(data),encoding='utf-8')
+   prior=previous_auto_events(root)
+   self.assertEqual({e['id'] for e in prior},
+                    {retained['id'],expired['id']})
+   now=started+dt.timedelta(hours=1,minutes=10)
+   final=merged_events([],[],root,now)
+   self.assertEqual(final,[])
+   final=merged_events([],prior,root,now)
+   self.assertEqual([x['id'] for x in final],[retained['id']])
+   updated={**retained,'channel_names':['ESPN 4','ESPN']}
+   final=merged_events([],[updated]+prior,root,now)
+   self.assertEqual(final[0]['channel_names'],updated['channel_names'])
 
  def test_dedupe_and_valid_window(self):
   self.assertNotEqual(fixture_key('Boca vs Vasco · Copa','2026-10-13T21:30:00-03:00'),fixture_key('Boca vs River','2026-10-13T21:30:00-03:00'))

@@ -256,6 +256,32 @@ def validate_event(event: dict, root: Path) -> bool:
     except (KeyError,TypeError,ValueError):return False
 
 
+def previous_auto_events(root: Path) -> list[dict]:
+    """Conserva los eventos anteriores aún vigentes si Olé deja de mostrarlos.
+
+    No conserva entradas manuales eliminadas: solo identificadores generados
+    automáticamente. La validación del manifiesto anterior sigue siendo estricta.
+    """
+    path = root / 'eventos.json'
+    if not path.is_file():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, ValueError, UnicodeError):
+        return []
+    if not isinstance(data, dict) or data.get('version') != 1 or \
+       data.get('timezone') != 'America/Argentina/Buenos_Aires' or \
+       not isinstance(data.get('events'), list):
+        return []
+    return [
+        event for event in data['events']
+        if isinstance(event, dict)
+        and isinstance(event.get('id'), str)
+        and event['id'].startswith('agenda-')
+        and validate_event(event, root)
+    ]
+
+
 def merged_events(manual: list[dict], auto: list[dict], root: Path,
                   now: dt.datetime | None=None) -> list[dict]:
     now=(now or dt.datetime.now(TIMEZONE)).astimezone(TIMEZONE)
@@ -292,7 +318,10 @@ def main():
     config=json.loads((root/'config/manuales.json').read_text(encoding='utf-8'))
     if set(config)!={'events'} or not isinstance(config['events'],list):
         raise ValueError('config/manuales.json inválido')
-    final=merged_events(config['events'],parsed,root,now)
+    previous = previous_auto_events(root)
+    final=merged_events(config['events'],parsed + previous,root,now)
+    print(f'Fuentes: {len(parsed)} vigentes; caché anterior: {len(previous)}; '
+          f'publicación final: {len(final)}')
     output={'version':1,'timezone':'America/Argentina/Buenos_Aires','events':final}
     raw=json.dumps(output,ensure_ascii=False,indent=2)+'\n'
     if len(raw.encode('utf-8'))>128*1024: raise ValueError('JSON excede tamaño aceptado por APK')
