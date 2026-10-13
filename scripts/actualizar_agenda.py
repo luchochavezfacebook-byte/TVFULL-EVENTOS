@@ -124,9 +124,16 @@ def _candidate(tokens: list[str], pos: int, day: dt.date,
     if not previous: return None
     team1 = previous[-1]
     lookahead=[]
+    after_detail=False
     for token in tokens[pos+1:pos+18]:
-        # No se permiten canales del partido siguiente.
-        if nrm(token) in {'mas datos', 'formaciones y mas datos'} or _day(token) or TIME_RE.fullmatch(token):
+        if _day(token) or TIME_RE.fullmatch(token):
+            break
+        if nrm(token) in {'mas datos', 'formaciones y mas datos'}:
+            after_detail=True
+            continue
+        if after_detail:
+            # Olé a veces coloca el canal después de «Más datos».
+            if channels(token):lookahead.append(token)
             break
         lookahead.append(token)
     team2 = next((t for t in lookahead if _team(t)), None)
@@ -157,19 +164,20 @@ def parse_html(html: str, now: dt.datetime | None = None) -> list[dict]:
     text = soup.get_text('\n', strip=True)
     tokens = [t.strip() for t in text.splitlines() if t.strip()]
     # Limitar al contenido de la agenda para no confundir relojes / titulares de publicidad.
-    beginning = next((i for i,t in enumerate(tokens) if 'agenda deportiva del' in nrm(t)), None)
-    if beginning is None:
-        beginning = next((i for i,t in enumerate(tokens) if _day(t)), None)
-    if beginning is None:
-        return []
-    tokens = tokens[beginning:beginning+1400]
+    beginning=next((i for i,t in enumerate(tokens)
+        if 'agenda deportiva' in nrm(t)),0)
+    tokens=tokens[beginning:beginning+1600]
     date: dt.date | None = None
     events: dict[str,dict] = {}
     for i, token in enumerate(tokens):
-        potential = _day(token)
-        if potential:
-            date = potential
-            continue
+        initial=nrm(token).split()[0] if token else ''
+        if initial in {'lunes','martes','miercoles','jueves','viernes',
+                       'sabado','domingo','agenda'}:
+            potential=next((_day(' '.join(tokens[i:i+n]))
+                for n in range(1,9) if _day(' '.join(tokens[i:i+n]))),None)
+            if potential:
+                date=potential
+                continue
         if date is None or not TIME_RE.fullmatch(token):
             continue
         item = _candidate(tokens, i, date, now)

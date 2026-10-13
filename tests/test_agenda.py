@@ -52,6 +52,20 @@ class Tests(unittest.TestCase):
  def test_no_unconfirmed_match(self):
   fixture='''<h2>Martes 13 de octubre de 2026</h2><h3>Uno</h3><b>18:00</b><h3>Dos</h3><p>Disney + Premium</p>'''
   self.assertEqual(parse_html(fixture,self.now),[])
+ def test_actual_ole_split_date_markup(self):
+  html='''<h1>Agenda Deportiva</h1>
+  <p>Martes</p><p>13</p><p>de</p><p>octubre</p><p>de</p><p>2026</p>
+  <h2>Copa Sudamericana</h2><h3>Boca Juniors</h3>
+  <p>21:30</p><p>ESPN</p><p>Disney + Premium</p><p>DSports</p>
+  <h3>Vasco da Gama</h3><p>Más datos</p>
+  <p>Miércoles</p><p>14</p><p>de</p><p>octubre</p><p>de</p><p>2026</p>
+  <h2>Liga Profesional</h2><h3>Sarmiento</h3><p>19:00</p>
+  <h3>River Plate</h3><p>Formaciones y más datos</p><p>TNT Sports Premium</p>'''
+  games=parse_html(html,self.now)
+  self.assertEqual(len(games),2,games)
+  self.assertEqual(games[0]['title'],'Boca Juniors vs Vasco da Gama')
+  self.assertEqual(games[1]['title'],'Sarmiento vs River Plate')
+  self.assertEqual(games[1]['channel_names'],['TNT Sports Premium'])
  def test_dedupe_and_valid_window(self):
   self.assertNotEqual(fixture_key('Boca vs Vasco · Copa','2026-10-13T21:30:00-03:00'),fixture_key('Boca vs River','2026-10-13T21:30:00-03:00'))
 
