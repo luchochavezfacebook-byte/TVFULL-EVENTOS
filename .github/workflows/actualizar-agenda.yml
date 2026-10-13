@@ -1,0 +1,50 @@
+name: Actualizar agenda deportiva TV FULL PRO
+
+on:
+  schedule:
+    - cron: '18 */4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'config/manuales.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/actualizar-agenda.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agenda-tvfull-publica
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar dependencias de lectura HTML
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Verificar extractor sin acceder a internet
+        run: python -m unittest discover -s tests -v
+      - name: Consultar agenda pública de Olé y generar JSON
+        run: python scripts/actualizar_agenda.py
+      - name: Comprobar formato para la aplicación
+        run: python scripts/validar_eventos.py
+      - name: Publicar solo si cambió el JSON
+        run: |
+          set -euo pipefail
+          git add eventos.json
+          if git diff --cached --quiet; then
+            echo 'Agenda sin cambios; no hay commit'
+            exit 0
+          fi
+          git config user.name 'tvfull-eventos-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git commit -m 'Actualizar eventos deportivos desde agenda pública'
+          git push origin HEAD:main

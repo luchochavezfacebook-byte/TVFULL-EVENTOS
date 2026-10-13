@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "timezone": "America/Argentina/Buenos_Aires",
+  "events": [
+    {
+      "id": "boca-vasco-20261013",
+      "title": "Boca Juniors vs Vasco da Gama · Copa Sudamericana",
+      "image": "imagenes/boca-vasco-20261013.webp",
+      "starts_at": "2026-10-13T21:30:00-03:00",
+      "show_from": "2026-10-13T09:00:00-03:00",
+      "show_until": "2026-10-14T02:00:00-03:00",
+      "channel_names": [
+        "SPEN",
+        "ESPN",
+        "ESPN HD"
+      ]
+    }
+  ]
+}
