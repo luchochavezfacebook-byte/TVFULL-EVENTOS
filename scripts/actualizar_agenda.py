@@ -188,42 +188,54 @@ def parse_html(html: str, now: dt.datetime | None = None) -> list[dict]:
     return sorted(events.values(), key=lambda e:e['starts_at'])
 
 
-def download_ole() -> str:
-    failures=[]
+def download_ole(now: dt.datetime | None = None) -> list[dict]:
+    """Unifica las variantes públicas en vez de aceptar la primera incompleta.
+
+    La misma ficha puede repetirse en los tres dominios; gana la primera
+    representación válida. Cada evento aún exige hora, equipos y canal lineal.
+    """
+    now = (now or dt.datetime.now(TIMEZONE)).astimezone(TIMEZONE)
+    failures = []
+    combined: dict[str, dict] = {}
     for url in AGENDA_URLS:
         try:
-            req=urllib.request.Request(url,headers={
-              'User-Agent':'TVFULL-Eventos-Agenda/1.0 (+https://github.com/luchochavezfacebook-byte/TVFULL-EVENTOS)',
-              'Accept':'text/html,application/xhtml+xml',
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'TVFULL-Eventos-Agenda/1.0 (+https://github.com/luchochavezfacebook-byte/TVFULL-EVENTOS)',
+                'Accept': 'text/html,application/xhtml+xml',
             })
-            with urllib.request.urlopen(req,timeout=20) as response:
-                if response.status != 200: raise ValueError(f'HTTP {response.status}')
-                if 'html' not in response.headers.get('Content-Type','').lower():
+            with urllib.request.urlopen(req, timeout=20) as response:
+                if response.status != 200:
+                    raise ValueError(f'HTTP {response.status}')
+                if 'html' not in response.headers.get('Content-Type', '').lower():
                     raise ValueError('No es HTML')
-                raw=response.read(2_000_001)
+                raw = response.read(2_000_001)
                 if len(raw) > 2_000_000:
                     raise ValueError('Tamaño excesivo')
-                html=raw.decode('utf-8',errors='replace')
+                html = raw.decode('utf-8', errors='replace')
                 if 'agenda' not in nrm(html[:100000]):
                     raise ValueError('Página diferente de la agenda')
-                games=parse_html(html,dt.datetime.now(TIMEZONE))
-                print(f'Fuente {url}: {len(raw)} bytes, {len(games)} partidos TV reconocidos')
+                games = parse_html(html, now)
+                before = len(combined)
+                for event in games:
+                    combined.setdefault(fixture_key(event['title'], event['starts_at']), event)
+                print(f'Fuente {url}: {len(raw)} bytes, {len(games)} partidos reconocidos, '
+                      f'{len(combined)-before} nuevos')
                 if not games:
-                    soup=BeautifulSoup(html,'html.parser')
-                    strings=list(soup.stripped_strings)
-                    print('Diagnostico: h2=',len(soup.select('h2')),
-                          'h3=',len(soup.select('h3')),
-                          'fechas=',sum(_day(t) is not None for t in strings),
-                          'horas=',sum(TIME_RE.fullmatch(t) is not None for t in strings))
-                    for needle in ['Boca Juniors', 'River Plate']:
-                        if any(needle in t for t in strings):
-                            i=next(i for i,t in enumerate(strings) if needle in t)
-                            print('Contexto',needle,[v[:55] for v in strings[max(0,i-3):i+9]])
-                    continue
-                return html
+                    failures.append(f'{url}: sin encuentros TV reconocibles')
         except Exception as e:
             failures.append(f'{url}: {type(e).__name__} {str(e)[:120]}')
-    raise RuntimeError('No se pudo obtener la agenda Olé: '+'; '.join(failures))
+    if not combined:
+        raise RuntimeError('No se pudo obtener la agenda Olé: ' + '; '.join(failures))
+    result = sorted(combined.values(), key=lambda e: (e['starts_at'], e['id']))
+    counts: dict[str, int] = {}
+    for event in result:
+        day = event['starts_at'][:10]
+        counts[day] = counts.get(day, 0) + 1
+    print('Agenda combinada por día: ' +
+          ', '.join(f'{day}={quantity}' for day, quantity in sorted(counts.items())))
+    if failures:
+        print('Fuentes parciales: ' + '; '.join(failures), file=sys.stderr)
+    return result
 
 
 def validate_event(event: dict, root: Path) -> bool:
@@ -271,8 +283,8 @@ def main():
     root=args.root
     now=dt.datetime.fromisoformat(args.now) if args.now else dt.datetime.now(TIMEZONE)
     now=now.astimezone(TIMEZONE)
-    html=args.html_fixture.read_text(encoding='utf-8') if args.html_fixture else download_ole()
-    parsed=parse_html(html,now)
+    parsed = (parse_html(args.html_fixture.read_text(encoding='utf-8'), now)
+              if args.html_fixture else download_ole(now))
     if not parsed:
         print('ERROR: no se pudieron extraer partidos confirmados con canal lineal. NO sobreescribir JSON.',file=sys.stderr)
         return 1

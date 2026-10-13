@@ -2,13 +2,15 @@ import datetime as dt
 import importlib.util
 import tempfile
 import unittest
+import io
+from unittest import mock
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT=Path(__file__).resolve().parents[1]
 import sys
 sys.path.insert(0,str(ROOT/'scripts'))
-from actualizar_agenda import channels, parse_html, merged_events, fixture_key
+from actualizar_agenda import channels, parse_html, merged_events, fixture_key, download_ole
 
 EXAMPLE='''<html><body>
 <h1>Agenda deportiva</h1>
@@ -66,6 +68,34 @@ class Tests(unittest.TestCase):
   self.assertEqual(games[0]['title'],'Boca Juniors vs Vasco da Gama')
   self.assertEqual(games[1]['title'],'Sarmiento vs River Plate')
   self.assertEqual(games[1]['channel_names'],['TNT Sports Premium'])
+ def test_multiple_public_sources_are_unified_not_first_only(self):
+  first='''<h1>Agenda deportiva</h1>
+  <h2>Miércoles 14 de octubre de 2026</h2><h3>Sarmiento</h3>
+  <div>19:00</div><h3>River Plate</h3><p>Más datos</p>
+  <span>TNT Sports Premium</span>'''
+  second=EXAMPLE
+  third='''<h1>Agenda deportiva</h1>
+  <h2>Martes 13 de octubre de 2026</h2><h3>Sabah</h3>
+  <div>13:45</div><h3>Slavia Praga</h3><p>Más datos</p>
+  <span>ESPN 2 Disney + Premium DGO</span>'''
+  urls=['www.ole.com.ar', 'movil.ole.com.ar', 'buscador.ole.com.ar']
+  fixtures=dict(zip(urls,[first,second,third]))
+  class Response(io.BytesIO):
+   status=200
+   headers={'Content-Type':'text/html; charset=utf-8'}
+  requests=[]
+  def fake_urlopen(request, timeout):
+   requests.append(request.full_url)
+   hostname=next(host for host in urls if host in request.full_url)
+   return Response(fixtures[hostname].encode('utf-8'))
+  with mock.patch('actualizar_agenda.urllib.request.urlopen', side_effect=fake_urlopen):
+   merged=download_ole(self.now)
+  self.assertEqual(len(requests),3)
+  self.assertEqual(len(merged),4)
+  self.assertEqual(sum('Sarmiento vs River Plate'==e['title'] for e in merged),1)
+  self.assertIn('Sabah vs Slavia Praga',[e['title'] for e in merged])
+  self.assertIn('Boca Juniors vs Vasco da Gama',[e['title'] for e in merged])
+
  def test_dedupe_and_valid_window(self):
   self.assertNotEqual(fixture_key('Boca vs Vasco · Copa','2026-10-13T21:30:00-03:00'),fixture_key('Boca vs River','2026-10-13T21:30:00-03:00'))
 
