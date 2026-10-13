@@ -36,6 +36,9 @@ jobs:
           parsed=parse_html(html,now)
           print('AHORA:',now.isoformat())
           print('FUENTE: tokens=',len(tokens),' partidos=',len(parsed))
+          agenda_links=sorted(set(a.get('href','') for a in BeautifulSoup(html,'html.parser').select('a[href]') if 'partidos-hoy-' in a.get('href','') or 'agenda-deportiva/' in a.get('href','')))
+          print('ENLACES AGENDA:',len(agenda_links))
+          for href in agenda_links[:20]: print('  LINK:',href[:180])
           for name in ['Boca Juniors','Sabah','Slavia Praga','Lens','Arsenal','Inter','Atlético de Madrid','Villarreal','Sarmiento']:
               hits=[i for i,v in enumerate(tokens) if nrm(v)==nrm(name)]
               print('EQUIPO:',name,'apariciones',len(hits))
