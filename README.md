@@ -27,7 +27,7 @@ La aplicación V61 puede consultar este archivo y presentar **máximo ocho event
 3. Desde **Actions → Actualizar agenda deportiva TV FULL PRO → Run workflow**, ejecutar una sincronización (o dejar que lo haga automáticamente).
 4. Consultar `eventos.json` para verificar el resultado.
 
-Ejemplo de nombre de canal: `"channel_names": ["SPEN", "ESPN", "ESPN HD"]`. La APK solo mostrará el evento si localiza alguna de esas señales **entre los canales reales del cliente**, y respeta el control parental.
+Ejemplo de nombre de canal: `"channel_names": ["SPEN"]`. Solo declaramos señales verificadas para ese evento. La APK solo mostrará el evento si localiza alguna de esas señales **entre los canales reales del cliente**, y respeta el control parental.
 
 ## Agenda de Olé: límites honestos
 

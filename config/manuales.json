@@ -7,7 +7,9 @@
       "starts_at": "2026-10-13T21:30:00-03:00",
       "show_from": "2026-10-13T09:00:00-03:00",
       "show_until": "2026-10-14T02:00:00-03:00",
-      "channel_names": ["SPEN", "ESPN", "ESPN HD"]
+      "channel_names": [
+        "SPEN"
+      ]
     }
   ]
 }

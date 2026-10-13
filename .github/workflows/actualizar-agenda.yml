@@ -5,6 +5,8 @@ on:
     - cron: '18 */4 * * *'
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - 'config/manuales.json'
       - 'scripts/**'
@@ -21,6 +23,7 @@ concurrency:
 
 jobs:
   actualizar:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
