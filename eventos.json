@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-14-feyenoord-como",
-      "title": "Feyenoord vs Como",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T13:45:00-03:00",
-      "show_from": "2026-10-14T05:45:00-03:00",
-      "show_until": "2026-10-14T17:15:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-14-lask-liverpool",
-      "title": "LASK vs Liverpool",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T13:45:00-03:00",
-      "show_from": "2026-10-14T05:45:00-03:00",
-      "show_until": "2026-10-14T17:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
       "id": "agenda-2026-10-14-aston-villa-fenerbahce",
       "title": "Aston Villa vs Fenerbahçe",
       "image": "imagenes/agenda.webp",
@@ -220,6 +198,83 @@
       "show_until": "2026-10-17T00:30:00-03:00",
       "channel_names": [
         "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-espanyol-atletico-de-madrid",
+      "title": "Espanyol vs Atlético de Madrid",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T09:00:00-03:00",
+      "show_from": "2026-10-17T01:00:00-03:00",
+      "show_until": "2026-10-17T12:30:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-real-betis-barcelona",
+      "title": "Real Betis vs Barcelona",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T13:30:00-03:00",
+      "show_from": "2026-10-17T05:30:00-03:00",
+      "show_until": "2026-10-17T17:00:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-banfield-argentinos-juniors",
+      "title": "Banfield vs Argentinos Juniors",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T15:00:00-03:00",
+      "show_from": "2026-10-17T07:00:00-03:00",
+      "show_until": "2026-10-17T18:30:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-independiente-rivadavia-tigre",
+      "title": "Independiente Rivadavia vs Tigre",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T17:30:00-03:00",
+      "show_from": "2026-10-17T09:30:00-03:00",
+      "show_until": "2026-10-17T21:00:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-platense-lanus",
+      "title": "Platense vs Lanús",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T17:30:00-03:00",
+      "show_from": "2026-10-17T09:30:00-03:00",
+      "show_until": "2026-10-17T21:00:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-atletico-tucuman-rosario-central",
+      "title": "Atlético Tucumán vs Rosario Central",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T20:00:00-03:00",
+      "show_from": "2026-10-17T12:00:00-03:00",
+      "show_until": "2026-10-17T23:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-17-velez-sarsfield-gimnasia-mendoza",
+      "title": "Vélez Sarsfield vs Gimnasia Mendoza",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T20:00:00-03:00",
+      "show_from": "2026-10-17T12:00:00-03:00",
+      "show_until": "2026-10-17T23:30:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
       ]
     }
   ]
