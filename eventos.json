@@ -124,6 +124,17 @@
       ]
     },
     {
+      "id": "agenda-2026-10-16-boca-juniors-talleres-de-cordoba",
+      "title": "Boca Juniors vs Talleres de Córdoba",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-16T21:30:00-03:00",
+      "show_from": "2026-10-16T13:30:00-03:00",
+      "show_until": "2026-10-17T01:00:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
       "id": "agenda-2026-10-17-espanyol-atletico-de-madrid",
       "title": "Espanyol vs Atlético de Madrid",
       "image": "imagenes/agenda.webp",
