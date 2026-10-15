@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-14-atletico-mineiro-montevideo-city-torque",
-      "title": "Atlético Mineiro vs Montevideo City Torque",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T19:00:00-03:00",
-      "show_from": "2026-10-14T11:00:00-03:00",
-      "show_until": "2026-10-14T22:30:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-14-sarmiento-river-plate",
-      "title": "Sarmiento vs River Plate",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-14T19:00:00-03:00",
-      "show_from": "2026-10-14T11:00:00-03:00",
-      "show_until": "2026-10-14T22:30:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-10-15-lech-poznan-bayer-04-leverkusen",
       "title": "Lech Poznań vs Bayer 04 Leverkusen",
       "image": "imagenes/agenda.webp",
