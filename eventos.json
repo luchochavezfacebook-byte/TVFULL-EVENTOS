@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-15-benfica-celtic",
-      "title": "Benfica vs Celtic",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-15T16:00:00-03:00",
-      "show_from": "2026-10-15T08:00:00-03:00",
-      "show_until": "2026-10-15T19:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-15-bournemouth-sturm-graz",
-      "title": "Bournemouth vs Sturm Graz",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-15T16:00:00-03:00",
-      "show_from": "2026-10-15T08:00:00-03:00",
-      "show_until": "2026-10-15T19:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-10-15-boca-juniors-ferro-carril-oeste",
       "title": "Boca Juniors vs Ferro Carril Oeste",
       "image": "imagenes/agenda.webp",
