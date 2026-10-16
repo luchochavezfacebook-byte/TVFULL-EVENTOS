@@ -58,6 +58,17 @@
       ]
     },
     {
+      "id": "agenda-2026-10-17-alemania-argentina",
+      "title": "Alemania vs Argentina",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-17T12:00:00-03:00",
+      "show_from": "2026-10-17T04:00:00-03:00",
+      "show_until": "2026-10-17T15:30:00-03:00",
+      "channel_names": [
+        "DSports 2"
+      ]
+    },
+    {
       "id": "agenda-2026-10-17-estrasburgo-paris-saint-germain",
       "title": "Estrasburgo vs Paris Saint Germain",
       "image": "imagenes/agenda.webp",
@@ -244,6 +255,17 @@
       "show_until": "2026-10-18T23:45:00-03:00",
       "channel_names": [
         "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-19-getafe-rayo-vallecano",
+      "title": "Getafe vs Rayo Vallecano",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-19T16:00:00-03:00",
+      "show_from": "2026-10-19T08:00:00-03:00",
+      "show_until": "2026-10-19T19:30:00-03:00",
+      "channel_names": [
+        "DSports"
       ]
     }
   ]
