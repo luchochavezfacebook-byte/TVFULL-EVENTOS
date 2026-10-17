@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-17-espanyol-atletico-de-madrid",
-      "title": "Espanyol vs Atlético de Madrid",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-17T09:00:00-03:00",
-      "show_from": "2026-10-17T01:00:00-03:00",
-      "show_until": "2026-10-17T12:30:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-17-alemania-argentina",
       "title": "Alemania vs Argentina",
       "image": "imagenes/agenda.webp",
