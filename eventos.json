@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-17-atletico-tucuman-rosario-central",
-      "title": "Atlético Tucumán vs Rosario Central",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-17T20:00:00-03:00",
-      "show_from": "2026-10-17T12:00:00-03:00",
-      "show_until": "2026-10-17T23:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-17-velez-sarsfield-gimnasia-mendoza",
-      "title": "Vélez Sarsfield vs Gimnasia Mendoza",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-17T20:00:00-03:00",
-      "show_from": "2026-10-17T12:00:00-03:00",
-      "show_until": "2026-10-17T23:30:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-10-18-udinese-lecce",
       "title": "Udinese vs Lecce",
       "image": "imagenes/agenda.webp",
