@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-17-banfield-argentinos-juniors",
-      "title": "Banfield vs Argentinos Juniors",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-17T15:00:00-03:00",
-      "show_from": "2026-10-17T07:00:00-03:00",
-      "show_until": "2026-10-17T18:30:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-17-independiente-rivadavia-tigre",
-      "title": "Independiente Rivadavia vs Tigre",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-17T17:30:00-03:00",
-      "show_from": "2026-10-17T09:30:00-03:00",
-      "show_until": "2026-10-17T21:00:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-17-platense-lanus",
-      "title": "Platense vs Lanús",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-17T17:30:00-03:00",
-      "show_from": "2026-10-17T09:30:00-03:00",
-      "show_until": "2026-10-17T21:00:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-10-17-atletico-tucuman-rosario-central",
       "title": "Atlético Tucumán vs Rosario Central",
       "image": "imagenes/agenda.webp",
