@@ -3,63 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-18-racing-club-independiente",
-      "title": "Racing Club vs Independiente",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-18T14:45:00-03:00",
-      "show_from": "2026-10-18T06:45:00-03:00",
-      "show_until": "2026-10-18T18:15:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium",
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-18-racing-independiente",
-      "title": "Racing vs Independiente",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-18T14:45:00-03:00",
-      "show_from": "2026-10-18T06:45:00-03:00",
-      "show_until": "2026-10-18T18:15:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium",
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-18-estudiantes-de-la-plata-san-lorenzo",
-      "title": "Estudiantes de La Plata vs San Lorenzo",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-18T18:00:00-03:00",
-      "show_from": "2026-10-18T10:00:00-03:00",
-      "show_until": "2026-10-18T21:30:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-18-estudiantes-rio-cuarto-aldosivi",
-      "title": "Estudiantes Río Cuarto vs Aldosivi",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-18T18:00:00-03:00",
-      "show_from": "2026-10-18T10:00:00-03:00",
-      "show_until": "2026-10-18T21:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-18-estudiantes-rc-aldosivi",
-      "title": "Estudiantes RC vs Aldosivi",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-18T18:00:00-03:00",
-      "show_from": "2026-10-18T10:00:00-03:00",
-      "show_until": "2026-10-18T21:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-10-18-belgrano-river-plate",
       "title": "Belgrano vs River Plate",
       "image": "imagenes/agenda.webp",
