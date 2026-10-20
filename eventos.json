@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-19-newell-s-old-boys-central-cordoba-santiago-del-estero",
-      "title": "Newell's Old Boys vs Central Córdoba (Santiago del Estero)",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-19T19:00:00-03:00",
-      "show_from": "2026-10-19T11:00:00-03:00",
-      "show_until": "2026-10-19T22:30:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-19-sarmiento-barracas-central",
-      "title": "Sarmiento vs Barracas Central",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-19T19:00:00-03:00",
-      "show_from": "2026-10-19T11:00:00-03:00",
-      "show_until": "2026-10-19T22:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-19-deportivo-riestra-union-santa-fe",
-      "title": "Deportivo Riestra vs Unión Santa Fe",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-19T21:15:00-03:00",
-      "show_from": "2026-10-19T13:15:00-03:00",
-      "show_until": "2026-10-20T00:45:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
       "id": "agenda-2026-10-20-argentina-nueva-zelanda",
       "title": "Argentina vs Nueva Zelanda",
       "image": "imagenes/agenda.webp",
