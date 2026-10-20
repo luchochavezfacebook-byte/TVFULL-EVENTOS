@@ -3,50 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-20-argentina-nueva-zelanda",
-      "title": "Argentina vs Nueva Zelanda",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-20T12:00:00-03:00",
-      "show_from": "2026-10-20T04:00:00-03:00",
-      "show_until": "2026-10-20T15:30:00-03:00",
-      "channel_names": [
-        "DSports 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-20-fenerbahce-slavia-prague",
-      "title": "Fenerbahçe vs Slavia Prague",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-20T13:45:00-03:00",
-      "show_from": "2026-10-20T05:45:00-03:00",
-      "show_until": "2026-10-20T17:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-20-sabah-borussia-dortmund",
-      "title": "Sabah vs Borussia Dortmund",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-20T13:45:00-03:00",
-      "show_from": "2026-10-20T05:45:00-03:00",
-      "show_until": "2026-10-20T17:15:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-20-fenerbahce-slavia-praha",
-      "title": "Fenerbahce vs Slavia Praha",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-20T13:45:00-03:00",
-      "show_from": "2026-10-20T05:45:00-03:00",
-      "show_until": "2026-10-20T17:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-10-20-manchester-city-aek-athens",
       "title": "Manchester City vs AEK Athens",
       "image": "imagenes/agenda.webp",
@@ -320,6 +276,94 @@
       "show_until": "2026-10-22T01:30:00-03:00",
       "channel_names": [
         "TyC Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-ararat-armenia-az",
+      "title": "Ararat-Armenia vs AZ",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T13:45:00-03:00",
+      "show_from": "2026-10-22T05:45:00-03:00",
+      "show_until": "2026-10-22T17:15:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-juventus-rennes",
+      "title": "Juventus vs Rennes",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T13:45:00-03:00",
+      "show_from": "2026-10-22T05:45:00-03:00",
+      "show_until": "2026-10-22T17:15:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-sturm-graz-marseille",
+      "title": "Sturm Graz vs Marseille",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T13:45:00-03:00",
+      "show_from": "2026-10-22T05:45:00-03:00",
+      "show_until": "2026-10-22T17:15:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-besiktas-crystal-palace",
+      "title": "Beşiktaş vs Crystal Palace",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T16:00:00-03:00",
+      "show_from": "2026-10-22T08:00:00-03:00",
+      "show_until": "2026-10-22T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-bournemouth-milan",
+      "title": "Bournemouth vs Milan",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T16:00:00-03:00",
+      "show_from": "2026-10-22T08:00:00-03:00",
+      "show_until": "2026-10-22T19:30:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-hoffenheim-lyon",
+      "title": "Hoffenheim vs Lyon",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T16:00:00-03:00",
+      "show_from": "2026-10-22T08:00:00-03:00",
+      "show_until": "2026-10-22T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-omonia-nicosia-benfica",
+      "title": "Omonia Nicosia vs Benfica",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T16:00:00-03:00",
+      "show_from": "2026-10-22T08:00:00-03:00",
+      "show_until": "2026-10-22T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-22-flamengo-estudiantes-de-la-plata",
+      "title": "Flamengo vs Estudiantes de La Plata",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-22T21:30:00-03:00",
+      "show_from": "2026-10-22T13:30:00-03:00",
+      "show_until": "2026-10-23T01:00:00-03:00",
+      "channel_names": [
+        "Fox Sports"
       ]
     }
   ]
