@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-19-parma-torino",
-      "title": "Parma vs Torino",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-19T15:45:00-03:00",
-      "show_from": "2026-10-19T07:45:00-03:00",
-      "show_until": "2026-10-19T19:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-19-getafe-rayo-vallecano",
-      "title": "Getafe vs Rayo Vallecano",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-19T16:00:00-03:00",
-      "show_from": "2026-10-19T08:00:00-03:00",
-      "show_until": "2026-10-19T19:30:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-19-tottenham-hotspur-coventry-city",
-      "title": "Tottenham Hotspur vs Coventry City",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-19T16:00:00-03:00",
-      "show_from": "2026-10-19T08:00:00-03:00",
-      "show_until": "2026-10-19T19:30:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
       "id": "agenda-2026-10-19-newell-s-old-boys-central-cordoba-santiago-del-estero",
       "title": "Newell's Old Boys vs Central Córdoba (Santiago del Estero)",
       "image": "imagenes/agenda.webp",
@@ -80,8 +47,8 @@
       ]
     },
     {
-      "id": "agenda-2026-10-20-fenerbahce-slavia-praha",
-      "title": "Fenerbahce vs Slavia Praha",
+      "id": "agenda-2026-10-20-fenerbahce-slavia-prague",
+      "title": "Fenerbahçe vs Slavia Prague",
       "image": "imagenes/agenda.webp",
       "starts_at": "2026-10-20T13:45:00-03:00",
       "show_from": "2026-10-20T05:45:00-03:00",
@@ -99,6 +66,72 @@
       "show_until": "2026-10-20T17:15:00-03:00",
       "channel_names": [
         "Fox Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-20-fenerbahce-slavia-praha",
+      "title": "Fenerbahce vs Slavia Praha",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-20T13:45:00-03:00",
+      "show_from": "2026-10-20T05:45:00-03:00",
+      "show_until": "2026-10-20T17:15:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-20-manchester-city-aek-athens",
+      "title": "Manchester City vs AEK Athens",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-20T16:00:00-03:00",
+      "show_from": "2026-10-20T08:00:00-03:00",
+      "show_until": "2026-10-20T19:30:00-03:00",
+      "channel_names": [
+        "Fox Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-20-napoli-bod-glimt",
+      "title": "Napoli vs Bodø/Glimt",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-20T16:00:00-03:00",
+      "show_from": "2026-10-20T08:00:00-03:00",
+      "show_until": "2026-10-20T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-20-paris-saint-germain-barcelona",
+      "title": "Paris Saint-Germain vs Barcelona",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-20T16:00:00-03:00",
+      "show_from": "2026-10-20T08:00:00-03:00",
+      "show_until": "2026-10-20T19:30:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-20-roma-slovan-bratislava",
+      "title": "Roma vs Slovan Bratislava",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-20T16:00:00-03:00",
+      "show_from": "2026-10-20T08:00:00-03:00",
+      "show_until": "2026-10-20T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-20-stuttgart-atletico-de-madrid",
+      "title": "Stuttgart vs Atlético de Madrid",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-20T16:00:00-03:00",
+      "show_from": "2026-10-20T08:00:00-03:00",
+      "show_until": "2026-10-20T19:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
       ]
     },
     {
@@ -132,28 +165,6 @@
       "show_until": "2026-10-20T19:30:00-03:00",
       "channel_names": [
         "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-20-roma-slovan-bratislava",
-      "title": "Roma vs Slovan Bratislava",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-20T16:00:00-03:00",
-      "show_from": "2026-10-20T08:00:00-03:00",
-      "show_until": "2026-10-20T19:30:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-20-stuttgart-atletico-de-madrid",
-      "title": "Stuttgart vs Atlético de Madrid",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-20T16:00:00-03:00",
-      "show_from": "2026-10-20T08:00:00-03:00",
-      "show_until": "2026-10-20T19:30:00-03:00",
-      "channel_names": [
-        "Fox Sports 2"
       ]
     },
     {
@@ -213,6 +224,61 @@
       ]
     },
     {
+      "id": "agenda-2026-10-21-bayern-munchen-arsenal",
+      "title": "Bayern München vs Arsenal",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-21T16:00:00-03:00",
+      "show_from": "2026-10-21T08:00:00-03:00",
+      "show_until": "2026-10-21T19:30:00-03:00",
+      "channel_names": [
+        "Fox Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-21-club-brugge-lens",
+      "title": "Club Brugge vs Lens",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-21T16:00:00-03:00",
+      "show_from": "2026-10-21T08:00:00-03:00",
+      "show_until": "2026-10-21T19:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-21-internazionale-shakhtar-donetsk",
+      "title": "Internazionale vs Shakhtar Donetsk",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-21T16:00:00-03:00",
+      "show_from": "2026-10-21T08:00:00-03:00",
+      "show_until": "2026-10-21T19:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-21-real-betis-feyenoord",
+      "title": "Real Betis vs Feyenoord",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-21T16:00:00-03:00",
+      "show_from": "2026-10-21T08:00:00-03:00",
+      "show_until": "2026-10-21T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-21-real-madrid-rb-leipzig",
+      "title": "Real Madrid vs RB Leipzig",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-21T16:00:00-03:00",
+      "show_from": "2026-10-21T08:00:00-03:00",
+      "show_until": "2026-10-21T19:30:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
       "id": "agenda-2026-10-21-bayern-munich-arsenal",
       "title": "Bayern Munich vs Arsenal",
       "image": "imagenes/agenda.webp",
@@ -243,28 +309,6 @@
       "show_until": "2026-10-21T19:30:00-03:00",
       "channel_names": [
         "Fox Sports 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-21-real-betis-feyenoord",
-      "title": "Real Betis vs Feyenoord",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-21T16:00:00-03:00",
-      "show_from": "2026-10-21T08:00:00-03:00",
-      "show_until": "2026-10-21T19:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-21-real-madrid-rb-leipzig",
-      "title": "Real Madrid vs RB Leipzig",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-21T16:00:00-03:00",
-      "show_from": "2026-10-21T08:00:00-03:00",
-      "show_until": "2026-10-21T19:30:00-03:00",
-      "channel_names": [
-        "ESPN"
       ]
     },
     {
