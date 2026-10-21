@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-21-como-manchester-united",
-      "title": "Como vs Manchester United",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-21T13:45:00-03:00",
-      "show_from": "2026-10-21T05:45:00-03:00",
-      "show_until": "2026-10-21T17:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-21-lille-galatasaray",
-      "title": "Lille vs Galatasaray",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-21T13:45:00-03:00",
-      "show_from": "2026-10-21T05:45:00-03:00",
-      "show_until": "2026-10-21T17:15:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-21-aston-villa-viking",
       "title": "Aston Villa vs Viking",
       "image": "imagenes/agenda.webp",
@@ -329,7 +307,18 @@
       "show_from": "2026-10-24T06:45:00-03:00",
       "show_until": "2026-10-24T18:15:00-03:00",
       "channel_names": [
-        "TNT Sports"
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-24-talleres-de-cordoba-defensa-y-justicia",
+      "title": "Talleres de Córdoba vs Defensa y Justicia",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-24T17:00:00-03:00",
+      "show_from": "2026-10-24T09:00:00-03:00",
+      "show_until": "2026-10-24T20:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
       ]
     },
     {
@@ -341,6 +330,17 @@
       "show_until": "2026-10-24T20:30:00-03:00",
       "channel_names": [
         "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-24-san-lorenzo-newell-s-old-boys",
+      "title": "San Lorenzo vs Newell's Old Boys",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-24T19:15:00-03:00",
+      "show_from": "2026-10-24T11:15:00-03:00",
+      "show_until": "2026-10-24T22:45:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
       ]
     },
     {
