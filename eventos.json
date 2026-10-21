@@ -256,6 +256,39 @@
       ]
     },
     {
+      "id": "agenda-2026-10-23-torino-monza",
+      "title": "Torino vs Monza",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-23T15:45:00-03:00",
+      "show_from": "2026-10-23T07:45:00-03:00",
+      "show_until": "2026-10-23T19:15:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-23-alaves-malaga",
+      "title": "Alavés vs Málaga",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-23T16:00:00-03:00",
+      "show_from": "2026-10-23T08:00:00-03:00",
+      "show_until": "2026-10-23T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-23-ipswich-town-nottingham-forest",
+      "title": "Ipswich Town vs Nottingham Forest",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-23T16:00:00-03:00",
+      "show_from": "2026-10-23T08:00:00-03:00",
+      "show_until": "2026-10-23T19:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
       "id": "agenda-2026-10-23-gimnasia-la-plata-sarmiento",
       "title": "Gimnasia La Plata vs Sarmiento",
       "image": "imagenes/agenda.webp",
