@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-22-ararat-armenia-az",
-      "title": "Ararat-Armenia vs AZ",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-22T13:45:00-03:00",
-      "show_from": "2026-10-22T05:45:00-03:00",
-      "show_until": "2026-10-22T17:15:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-22-juventus-rennes",
-      "title": "Juventus vs Rennes",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-22T13:45:00-03:00",
-      "show_from": "2026-10-22T05:45:00-03:00",
-      "show_until": "2026-10-22T17:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-22-sturm-graz-marseille",
-      "title": "Sturm Graz vs Marseille",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-22T13:45:00-03:00",
-      "show_from": "2026-10-22T05:45:00-03:00",
-      "show_until": "2026-10-22T17:15:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
       "id": "agenda-2026-10-22-besiktas-crystal-palace",
       "title": "Beşiktaş vs Crystal Palace",
       "image": "imagenes/agenda.webp",
@@ -179,6 +146,17 @@
       ]
     },
     {
+      "id": "agenda-2026-10-24-dalton-smith-uk-alberto-puello-dom",
+      "title": "Dalton Smith (UK) vs Alberto Puello (DOM)",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-24T15:30:00-03:00",
+      "show_from": "2026-10-24T07:30:00-03:00",
+      "show_until": "2026-10-24T19:00:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
       "id": "agenda-2026-10-24-talleres-de-cordoba-defensa-y-justicia",
       "title": "Talleres de Córdoba vs Defensa y Justicia",
       "image": "imagenes/agenda.webp",
@@ -231,6 +209,28 @@
       "show_until": "2026-10-25T01:00:00-03:00",
       "channel_names": [
         "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-24-bustillos-gimenez-ayrton-antonio",
+      "title": "Bustillos Giménez vs Ayrton Antonio",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-24T23:00:00-03:00",
+      "show_from": "2026-10-24T15:00:00-03:00",
+      "show_until": "2026-10-25T02:30:00-03:00",
+      "channel_names": [
+        "TyC Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-25-internazionale-fiorentina",
+      "title": "Internazionale vs Fiorentina",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-25T08:30:00-03:00",
+      "show_from": "2026-10-25T00:30:00-03:00",
+      "show_until": "2026-10-25T12:00:00-03:00",
+      "channel_names": [
+        "ESPN"
       ]
     },
     {
