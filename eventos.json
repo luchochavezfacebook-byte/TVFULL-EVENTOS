@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-22-flamengo-estudiantes-de-la-plata",
-      "title": "Flamengo vs Estudiantes de La Plata",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-22T21:30:00-03:00",
-      "show_from": "2026-10-22T13:30:00-03:00",
-      "show_until": "2026-10-23T01:00:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-23-torino-monza",
       "title": "Torino vs Monza",
       "image": "imagenes/agenda.webp",
