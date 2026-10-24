@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-23-tigre-atletico-tucuman",
-      "title": "Tigre vs Atlético Tucumán",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-23T21:15:00-03:00",
-      "show_from": "2026-10-23T13:15:00-03:00",
-      "show_until": "2026-10-24T00:45:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-24-valencia-villarreal",
       "title": "Valencia vs Villarreal",
       "image": "imagenes/agenda.webp",
