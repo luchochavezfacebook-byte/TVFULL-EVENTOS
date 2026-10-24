@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-24-valencia-villarreal",
-      "title": "Valencia vs Villarreal",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-24T13:30:00-03:00",
-      "show_from": "2026-10-24T05:30:00-03:00",
-      "show_until": "2026-10-24T17:00:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-24-banfield-lanus",
       "title": "Banfield vs Lanús",
       "image": "imagenes/agenda.webp",
