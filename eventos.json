@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-24-bustillos-gimenez-ayrton-antonio",
-      "title": "Bustillos Giménez vs Ayrton Antonio",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-24T23:00:00-03:00",
-      "show_from": "2026-10-24T15:00:00-03:00",
-      "show_until": "2026-10-25T02:30:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-25-internazionale-fiorentina",
       "title": "Internazionale vs Fiorentina",
       "image": "imagenes/agenda.webp",
