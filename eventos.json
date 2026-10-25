@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-25-internazionale-fiorentina",
-      "title": "Internazionale vs Fiorentina",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-25T08:30:00-03:00",
-      "show_from": "2026-10-25T00:30:00-03:00",
-      "show_until": "2026-10-25T12:00:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
       "id": "agenda-2026-10-25-aldosivi-belgrano",
       "title": "Aldosivi vs Belgrano",
       "image": "imagenes/agenda.webp",
