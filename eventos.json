@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-26-river-plate-ajax",
-      "title": "River Plate vs Ajax",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-26T14:20:00-03:00",
-      "show_from": "2026-10-26T06:20:00-03:00",
-      "show_until": "2026-10-26T17:50:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-10-26-santa-clara-benfica",
       "title": "Santa Clara vs Benfica",
       "image": "imagenes/agenda.webp",
