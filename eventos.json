@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-25-aldosivi-belgrano",
-      "title": "Aldosivi vs Belgrano",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-25T14:45:00-03:00",
-      "show_from": "2026-10-25T06:45:00-03:00",
-      "show_until": "2026-10-25T18:15:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-25-independiente-boca-juniors",
-      "title": "Independiente vs Boca Juniors",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-25T17:00:00-03:00",
-      "show_from": "2026-10-25T09:00:00-03:00",
-      "show_until": "2026-10-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-25-manchester-city-boca-juniors",
-      "title": "Manchester City vs Boca Juniors",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-25T17:30:00-03:00",
-      "show_from": "2026-10-25T09:30:00-03:00",
-      "show_until": "2026-10-25T21:00:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
       "id": "agenda-2026-10-25-river-plate-racing-club",
       "title": "River Plate vs Racing Club",
       "image": "imagenes/agenda.webp",
