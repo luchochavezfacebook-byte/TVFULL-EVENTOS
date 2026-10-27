@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-27-boca-juniors-flamengo",
-      "title": "Boca Juniors vs Flamengo",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T14:20:00-03:00",
-      "show_from": "2026-10-27T06:20:00-03:00",
-      "show_until": "2026-10-27T17:50:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-10-27-sassuolo-lazio",
       "title": "Sassuolo vs Lazio",
       "image": "imagenes/agenda.webp",
@@ -91,6 +80,17 @@
       ]
     },
     {
+      "id": "agenda-2026-10-28-venezia-internazionale",
+      "title": "Venezia vs Internazionale",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-28T14:30:00-03:00",
+      "show_from": "2026-10-28T06:30:00-03:00",
+      "show_until": "2026-10-28T18:00:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
       "id": "agenda-2026-10-28-venezia-inter",
       "title": "Venezia vs Inter",
       "image": "imagenes/agenda.webp",
@@ -154,6 +154,17 @@
       "show_until": "2026-10-29T00:00:00-03:00",
       "channel_names": [
         "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-28-atletico-tucuman-platense",
+      "title": "Atlético Tucumán vs Platense",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-28T21:15:00-03:00",
+      "show_from": "2026-10-28T13:15:00-03:00",
+      "show_until": "2026-10-29T00:45:00-03:00",
+      "channel_names": [
+        "TyC Sports"
       ]
     }
   ]
