@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-26-union-santa-fe-estudiantes-de-la-plata",
-      "title": "Unión Santa Fe vs Estudiantes de La Plata",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-26T19:00:00-03:00",
-      "show_from": "2026-10-26T11:00:00-03:00",
-      "show_until": "2026-10-26T22:30:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-26-union-estudiantes-lp",
-      "title": "Unión vs Estudiantes LP",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-26T19:00:00-03:00",
-      "show_from": "2026-10-26T11:00:00-03:00",
-      "show_until": "2026-10-26T22:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-26-instituto-deportivo-riestra",
-      "title": "Instituto vs Deportivo Riestra",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-26T21:15:00-03:00",
-      "show_from": "2026-10-26T13:15:00-03:00",
-      "show_until": "2026-10-27T00:45:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-27-boca-juniors-flamengo",
       "title": "Boca Juniors vs Flamengo",
       "image": "imagenes/agenda.webp",
