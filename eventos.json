@@ -210,6 +210,116 @@
       "channel_names": [
         "TyC Sports"
       ]
+    },
+    {
+      "id": "agenda-2026-10-30-le-havre-paris-saint-germain",
+      "title": "Le Havre vs Paris Saint-Germain",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T15:00:00-03:00",
+      "show_from": "2026-10-30T07:00:00-03:00",
+      "show_until": "2026-10-30T18:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-sonders-rosario-san-lorenzo",
+      "title": "Sonders Rosario vs San Lorenzo",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T15:00:00-03:00",
+      "show_from": "2026-10-30T07:00:00-03:00",
+      "show_until": "2026-10-30T18:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-villarreal-espanyol",
+      "title": "Villarreal vs Espanyol",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T17:00:00-03:00",
+      "show_from": "2026-10-30T09:00:00-03:00",
+      "show_until": "2026-10-30T20:30:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-lille-lens",
+      "title": "Lille vs Lens",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T17:05:00-03:00",
+      "show_from": "2026-10-30T09:05:00-03:00",
+      "show_until": "2026-10-30T20:35:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-velez-waiwen",
+      "title": "Vélez vs Waiwen",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T18:00:00-03:00",
+      "show_from": "2026-10-30T10:00:00-03:00",
+      "show_until": "2026-10-30T21:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-estudiantes-rio-cuarto-gimnasia-la-plata",
+      "title": "Estudiantes Río Cuarto vs Gimnasia La Plata",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T19:00:00-03:00",
+      "show_from": "2026-10-30T11:00:00-03:00",
+      "show_until": "2026-10-30T22:30:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-huracan-tigre",
+      "title": "Huracán vs Tigre",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T19:00:00-03:00",
+      "show_from": "2026-10-30T11:00:00-03:00",
+      "show_until": "2026-10-30T22:30:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-river-plate-ciudad",
+      "title": "River Plate vs Ciudad",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T21:00:00-03:00",
+      "show_from": "2026-10-30T13:00:00-03:00",
+      "show_until": "2026-10-31T00:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-racing-club-aldosivi",
+      "title": "Racing Club vs Aldosivi",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T21:15:00-03:00",
+      "show_from": "2026-10-30T13:15:00-03:00",
+      "show_until": "2026-10-31T00:45:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-30-sarmiento-rosario-central",
+      "title": "Sarmiento vs Rosario Central",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-30T21:15:00-03:00",
+      "show_from": "2026-10-30T13:15:00-03:00",
+      "show_until": "2026-10-31T00:45:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
     }
   ]
 }
