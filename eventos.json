@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-27-argentinos-juniors-independiente-rivadavia",
-      "title": "Argentinos Juniors vs Independiente Rivadavia",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T19:00:00-03:00",
-      "show_from": "2026-10-27T11:00:00-03:00",
-      "show_until": "2026-10-27T22:30:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-28-milan-bologna",
       "title": "Milan vs Bologna",
       "image": "imagenes/agenda.webp",
