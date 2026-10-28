@@ -3,61 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-27-sassuolo-lazio",
-      "title": "Sassuolo vs Lazio",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T14:30:00-03:00",
-      "show_from": "2026-10-27T06:30:00-03:00",
-      "show_until": "2026-10-27T18:00:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-27-barcelona-newell-s-old-boys",
-      "title": "Barcelona vs Newell’s Old Boys",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T15:50:00-03:00",
-      "show_from": "2026-10-27T07:50:00-03:00",
-      "show_until": "2026-10-27T19:20:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-27-fleetwood-town-arsenal",
-      "title": "Fleetwood Town vs Arsenal",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T17:00:00-03:00",
-      "show_from": "2026-10-27T09:00:00-03:00",
-      "show_until": "2026-10-27T20:30:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-27-sporting-lisboa-maritimo",
-      "title": "Sporting Lisboa vs Maritimo",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T17:15:00-03:00",
-      "show_from": "2026-10-27T09:15:00-03:00",
-      "show_until": "2026-10-27T20:45:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-27-river-plate-inter",
-      "title": "River Plate vs Inter",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-27T17:20:00-03:00",
-      "show_from": "2026-10-27T09:20:00-03:00",
-      "show_until": "2026-10-27T20:50:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-10-27-argentinos-juniors-independiente-rivadavia",
       "title": "Argentinos Juniors vs Independiente Rivadavia",
       "image": "imagenes/agenda.webp",
@@ -163,6 +108,116 @@
       "starts_at": "2026-10-28T21:15:00-03:00",
       "show_from": "2026-10-28T13:15:00-03:00",
       "show_until": "2026-10-29T00:45:00-03:00",
+      "channel_names": [
+        "TyC Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-boca-juniors-ciudad",
+      "title": "Boca Juniors vs Ciudad",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T11:00:00-03:00",
+      "show_from": "2026-10-29T03:00:00-03:00",
+      "show_until": "2026-10-29T14:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-frosinone-lecce",
+      "title": "Frosinone vs Lecce",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T14:30:00-03:00",
+      "show_from": "2026-10-29T06:30:00-03:00",
+      "show_until": "2026-10-29T18:00:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-paris-fc-hacken",
+      "title": "Paris FC vs Häcken",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T14:30:00-03:00",
+      "show_from": "2026-10-29T06:30:00-03:00",
+      "show_until": "2026-10-29T18:00:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-waiwen-river-plate",
+      "title": "Waiwen vs River Plate",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T15:00:00-03:00",
+      "show_from": "2026-10-29T07:00:00-03:00",
+      "show_until": "2026-10-29T18:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-everton-newcastle",
+      "title": "Everton vs Newcastle",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T16:30:00-03:00",
+      "show_from": "2026-10-29T08:30:00-03:00",
+      "show_until": "2026-10-29T20:00:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-manchester-city-psg",
+      "title": "Manchester City vs PSG",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T16:40:00-03:00",
+      "show_from": "2026-10-29T08:40:00-03:00",
+      "show_until": "2026-10-29T20:10:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-fiorentina-atalanta",
+      "title": "Fiorentina vs Atalanta",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T16:45:00-03:00",
+      "show_from": "2026-10-29T08:45:00-03:00",
+      "show_until": "2026-10-29T20:15:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-upcn-ferro",
+      "title": "UPCN vs Ferro",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T18:00:00-03:00",
+      "show_from": "2026-10-29T10:00:00-03:00",
+      "show_until": "2026-10-29T21:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-monteros-velez",
+      "title": "Monteros vs Vélez",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T21:00:00-03:00",
+      "show_from": "2026-10-29T13:00:00-03:00",
+      "show_until": "2026-10-30T00:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-10-29-lanus-san-martin-c",
+      "title": "Lanús vs San Martín (C)",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-10-29T22:00:00-03:00",
+      "show_from": "2026-10-29T14:00:00-03:00",
+      "show_until": "2026-10-30T01:30:00-03:00",
       "channel_names": [
         "TyC Sports"
       ]
