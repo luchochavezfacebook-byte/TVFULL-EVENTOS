@@ -276,6 +276,73 @@
       "channel_names": [
         "ESPN Premium"
       ]
+    },
+    {
+      "id": "agenda-2026-11-01-racing-de-santander-real-madrid",
+      "title": "Racing de Santander vs Real Madrid",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-01T12:15:00-03:00",
+      "show_from": "2026-11-01T04:15:00-03:00",
+      "show_until": "2026-11-01T15:45:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-01-boca-juniors-river-plate",
+      "title": "Boca Juniors vs River Plate",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-01T15:00:00-03:00",
+      "show_from": "2026-11-01T07:00:00-03:00",
+      "show_until": "2026-11-01T18:30:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium",
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-01-athletic-club-real-sociedad",
+      "title": "Athletic Club vs Real Sociedad",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-01T17:00:00-03:00",
+      "show_from": "2026-11-01T09:00:00-03:00",
+      "show_until": "2026-11-01T20:30:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-01-belgrano-barracas-central",
+      "title": "Belgrano vs Barracas Central",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-01T18:30:00-03:00",
+      "show_from": "2026-11-01T10:30:00-03:00",
+      "show_until": "2026-11-01T22:00:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-01-newell-s-old-boys-union-santa-fe",
+      "title": "Newell's Old Boys vs Unión Santa Fe",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-01T18:30:00-03:00",
+      "show_from": "2026-11-01T10:30:00-03:00",
+      "show_until": "2026-11-01T22:00:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-01-lanus-gimnasia-mendoza",
+      "title": "Lanús vs Gimnasia Mendoza",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-01T20:45:00-03:00",
+      "show_from": "2026-11-01T12:45:00-03:00",
+      "show_until": "2026-11-02T00:15:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
     }
   ]
 }
