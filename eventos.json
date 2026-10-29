@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-28-boca-juniors-regatas",
-      "title": "Boca Juniors vs Regatas",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-28T20:30:00-03:00",
-      "show_from": "2026-10-28T12:30:00-03:00",
-      "show_until": "2026-10-29T00:00:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-10-28-atletico-tucuman-platense",
-      "title": "Atlético Tucumán vs Platense",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-28T21:15:00-03:00",
-      "show_from": "2026-10-28T13:15:00-03:00",
-      "show_until": "2026-10-29T00:45:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-10-29-boca-juniors-ciudad",
       "title": "Boca Juniors vs Ciudad",
       "image": "imagenes/agenda.webp",
