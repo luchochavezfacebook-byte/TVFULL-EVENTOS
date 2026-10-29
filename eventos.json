@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-29-boca-juniors-ciudad",
-      "title": "Boca Juniors vs Ciudad",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-29T11:00:00-03:00",
-      "show_from": "2026-10-29T03:00:00-03:00",
-      "show_until": "2026-10-29T14:30:00-03:00",
-      "channel_names": [
-        "Fox Sports 2"
-      ]
-    },
-    {
       "id": "agenda-2026-10-29-frosinone-lecce",
       "title": "Frosinone vs Lecce",
       "image": "imagenes/agenda.webp",
