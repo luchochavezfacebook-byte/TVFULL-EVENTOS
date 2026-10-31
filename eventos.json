@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-10-31-san-lorenzo-upcn",
-      "title": "San Lorenzo vs UPCN",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-10-31T11:30:00-03:00",
-      "show_from": "2026-10-31T03:30:00-03:00",
-      "show_until": "2026-10-31T15:00:00-03:00",
-      "channel_names": [
-        "Fox Sports 2"
-      ]
-    },
-    {
       "id": "agenda-2026-10-31-real-betis-malaga",
       "title": "Real Betis vs Málaga",
       "image": "imagenes/agenda.webp",
