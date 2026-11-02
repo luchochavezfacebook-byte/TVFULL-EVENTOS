@@ -91,6 +91,17 @@
       ]
     },
     {
+      "id": "agenda-2026-11-03-shakhtar-donetsk-sporting-cp",
+      "title": "Shakhtar Donetsk vs Sporting CP",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-03T14:45:00-03:00",
+      "show_from": "2026-11-03T06:45:00-03:00",
+      "show_until": "2026-11-03T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
       "id": "agenda-2026-11-03-shakhtar-sporting-cp",
       "title": "Shakhtar vs Sporting CP",
       "image": "imagenes/agenda.webp",
@@ -102,6 +113,17 @@
       ]
     },
     {
+      "id": "agenda-2026-11-03-atletico-de-madrid-bayern-munchen",
+      "title": "Atlético de Madrid vs Bayern München",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-03T17:00:00-03:00",
+      "show_from": "2026-11-03T09:00:00-03:00",
+      "show_until": "2026-11-03T20:30:00-03:00",
+      "channel_names": [
+        "Fox Sports"
+      ]
+    },
+    {
       "id": "agenda-2026-11-03-barcelona-aston-villa",
       "title": "Barcelona vs Aston Villa",
       "image": "imagenes/agenda.webp",
@@ -110,6 +132,50 @@
       "show_until": "2026-11-03T20:30:00-03:00",
       "channel_names": [
         "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-03-bod-glimt-lille",
+      "title": "Bodø/Glimt vs Lille",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-03T17:00:00-03:00",
+      "show_from": "2026-11-03T09:00:00-03:00",
+      "show_until": "2026-11-03T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-03-feyenoord-internazionale",
+      "title": "Feyenoord vs Internazionale",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-03T17:00:00-03:00",
+      "show_from": "2026-11-03T09:00:00-03:00",
+      "show_until": "2026-11-03T20:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-03-manchester-united-roma",
+      "title": "Manchester United vs Roma",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-03T17:00:00-03:00",
+      "show_from": "2026-11-03T09:00:00-03:00",
+      "show_until": "2026-11-03T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-03-villarreal-paris-saint-germain",
+      "title": "Villarreal vs Paris Saint-Germain",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-03T17:00:00-03:00",
+      "show_from": "2026-11-03T09:00:00-03:00",
+      "show_until": "2026-11-03T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
       ]
     },
     {
@@ -135,17 +201,6 @@
       ]
     },
     {
-      "id": "agenda-2026-11-03-manchester-united-roma",
-      "title": "Manchester United vs Roma",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-03T17:00:00-03:00",
-      "show_from": "2026-11-03T09:00:00-03:00",
-      "show_until": "2026-11-03T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-11-03-villarreal-psg",
       "title": "Villarreal vs PSG",
       "image": "imagenes/agenda.webp",
@@ -158,13 +213,24 @@
     },
     {
       "id": "agenda-2026-11-04-fenerbahce-liverpool",
-      "title": "Fenerbahce vs Liverpool",
+      "title": "Fenerbahçe vs Liverpool",
       "image": "imagenes/agenda.webp",
       "starts_at": "2026-11-04T14:45:00-03:00",
       "show_from": "2026-11-04T06:45:00-03:00",
       "show_until": "2026-11-04T18:15:00-03:00",
       "channel_names": [
         "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-04-fc-porto-napoli",
+      "title": "FC Porto vs Napoli",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-04T17:00:00-03:00",
+      "show_from": "2026-11-04T09:00:00-03:00",
+      "show_until": "2026-11-04T20:30:00-03:00",
+      "channel_names": [
+        "Fox Sports"
       ]
     },
     {
@@ -179,17 +245,6 @@
       ]
     },
     {
-      "id": "agenda-2026-11-04-porto-napoli",
-      "title": "Porto vs Napoli",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-04T17:00:00-03:00",
-      "show_from": "2026-11-04T09:00:00-03:00",
-      "show_until": "2026-11-04T20:30:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-04-psv-club-brugge",
       "title": "PSV vs Club Brugge",
       "image": "imagenes/agenda.webp",
@@ -198,6 +253,28 @@
       "show_until": "2026-11-04T20:30:00-03:00",
       "channel_names": [
         "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-04-slavia-prague-arsenal",
+      "title": "Slavia Prague vs Arsenal",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-04T17:00:00-03:00",
+      "show_from": "2026-11-04T09:00:00-03:00",
+      "show_until": "2026-11-04T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-04-porto-napoli",
+      "title": "Porto vs Napoli",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-04T17:00:00-03:00",
+      "show_from": "2026-11-04T09:00:00-03:00",
+      "show_until": "2026-11-04T20:30:00-03:00",
+      "channel_names": [
+        "Fox Sports"
       ]
     },
     {
