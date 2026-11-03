@@ -3,50 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-02-sassuolo-fiorentina",
-      "title": "Sassuolo vs Fiorentina",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-02T14:30:00-03:00",
-      "show_from": "2026-11-02T06:30:00-03:00",
-      "show_until": "2026-11-02T18:00:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-02-deportivo-de-a-coruna-osasuna",
-      "title": "Deportivo de A Coruña vs Osasuna",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-02T17:00:00-03:00",
-      "show_from": "2026-11-02T09:00:00-03:00",
-      "show_until": "2026-11-02T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-02-newcastle-united-everton",
-      "title": "Newcastle United vs Everton",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-02T17:00:00-03:00",
-      "show_from": "2026-11-02T09:00:00-03:00",
-      "show_until": "2026-11-02T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-02-benfica-alverca",
-      "title": "Benfica vs Alverca",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-02T17:15:00-03:00",
-      "show_from": "2026-11-02T09:15:00-03:00",
-      "show_until": "2026-11-02T20:45:00-03:00",
-      "channel_names": [
-        "DSports 2"
-      ]
-    },
-    {
       "id": "agenda-2026-11-02-defensa-y-justicia-independiente",
       "title": "Defensa y Justicia vs Independiente",
       "image": "imagenes/agenda.webp",
