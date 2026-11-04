@@ -3,6 +3,17 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
+      "id": "agenda-2026-11-04-rennes-olympiakos",
+      "title": "Rennes vs Olympiakos",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-04T12:30:00-03:00",
+      "show_from": "2026-11-04T04:30:00-03:00",
+      "show_until": "2026-11-04T16:00:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
       "id": "agenda-2026-11-04-fenerbahce-liverpool",
       "title": "Fenerbahçe vs Liverpool",
       "image": "imagenes/agenda.webp",
@@ -77,6 +88,193 @@
       "show_until": "2026-11-04T20:30:00-03:00",
       "channel_names": [
         "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-crystal-palace-hoffenheim",
+      "title": "Crystal Palace vs Hoffenheim",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T14:45:00-03:00",
+      "show_from": "2026-11-05T06:45:00-03:00",
+      "show_until": "2026-11-05T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-milan-ferencvaros",
+      "title": "Milan vs Ferencváros",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T14:45:00-03:00",
+      "show_from": "2026-11-05T06:45:00-03:00",
+      "show_until": "2026-11-05T18:15:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-real-sociedad-lyon",
+      "title": "Real Sociedad vs Lyon",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T14:45:00-03:00",
+      "show_from": "2026-11-05T06:45:00-03:00",
+      "show_until": "2026-11-05T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-aldosivi-river-plate",
+      "title": "Aldosivi vs River Plate",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T15:00:00-03:00",
+      "show_from": "2026-11-05T07:00:00-03:00",
+      "show_until": "2026-11-05T18:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-az-juventus",
+      "title": "AZ vs Juventus",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T17:00:00-03:00",
+      "show_from": "2026-11-05T09:00:00-03:00",
+      "show_until": "2026-11-05T20:30:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-bayer-04-leverkusen-marseille",
+      "title": "Bayer 04 Leverkusen vs Marseille",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T17:00:00-03:00",
+      "show_from": "2026-11-05T09:00:00-03:00",
+      "show_until": "2026-11-05T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-benfica-lech-poznan",
+      "title": "Benfica vs Lech Poznań",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T17:00:00-03:00",
+      "show_from": "2026-11-05T09:00:00-03:00",
+      "show_until": "2026-11-05T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-celta-de-vigo-union-saint-gilloise",
+      "title": "Celta de Vigo vs Union Saint-Gilloise",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T17:00:00-03:00",
+      "show_from": "2026-11-05T09:00:00-03:00",
+      "show_until": "2026-11-05T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-05-gimnasia-la-plata-belgrano",
+      "title": "Gimnasia La Plata vs Belgrano",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-05T19:15:00-03:00",
+      "show_from": "2026-11-05T11:15:00-03:00",
+      "show_until": "2026-11-05T22:45:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-barracas-central-racing-club",
+      "title": "Barracas Central vs Racing Club",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T15:00:00-03:00",
+      "show_from": "2026-11-06T07:00:00-03:00",
+      "show_until": "2026-11-06T18:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-venezia-udinese",
+      "title": "Venezia vs Udinese",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T16:45:00-03:00",
+      "show_from": "2026-11-06T08:45:00-03:00",
+      "show_until": "2026-11-06T20:15:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-sevilla-alaves",
+      "title": "Sevilla vs Alavés",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T17:00:00-03:00",
+      "show_from": "2026-11-06T09:00:00-03:00",
+      "show_until": "2026-11-06T20:30:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-independiente-deportivo-riestra",
+      "title": "Independiente vs Deportivo Riestra",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T19:15:00-03:00",
+      "show_from": "2026-11-06T11:15:00-03:00",
+      "show_until": "2026-11-06T22:45:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-san-lorenzo-platense",
+      "title": "San Lorenzo vs Platense",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T19:15:00-03:00",
+      "show_from": "2026-11-06T11:15:00-03:00",
+      "show_until": "2026-11-06T22:45:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-union-santa-fe-velez-sarsfield",
+      "title": "Unión Santa Fe vs Vélez Sarsfield",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T19:15:00-03:00",
+      "show_from": "2026-11-06T11:15:00-03:00",
+      "show_until": "2026-11-06T22:45:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-banfield-atletico-tucuman",
+      "title": "Banfield vs Atlético Tucumán",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T22:00:00-03:00",
+      "show_from": "2026-11-06T14:00:00-03:00",
+      "show_until": "2026-11-07T01:30:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-06-tigre-sarmiento",
+      "title": "Tigre vs Sarmiento",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-06T22:00:00-03:00",
+      "show_from": "2026-11-06T14:00:00-03:00",
+      "show_until": "2026-11-07T01:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
       ]
     }
   ]
