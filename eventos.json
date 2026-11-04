@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-04-rennes-olympiakos",
-      "title": "Rennes vs Olympiakos",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-04T12:30:00-03:00",
-      "show_from": "2026-11-04T04:30:00-03:00",
-      "show_until": "2026-11-04T16:00:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-11-04-fenerbahce-liverpool",
       "title": "Fenerbahçe vs Liverpool",
       "image": "imagenes/agenda.webp",
@@ -275,6 +264,117 @@
       "show_until": "2026-11-07T01:30:00-03:00",
       "channel_names": [
         "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-malaga-racing-de-santander",
+      "title": "Málaga vs Racing de Santander",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T10:00:00-03:00",
+      "show_from": "2026-11-07T02:00:00-03:00",
+      "show_until": "2026-11-07T13:30:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-espanyol-deportivo-de-a-coruna",
+      "title": "Espanyol vs Deportivo de A Coruña",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T12:15:00-03:00",
+      "show_from": "2026-11-07T04:15:00-03:00",
+      "show_until": "2026-11-07T15:45:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-gimnasia-mendoza-independiente-rivadavia",
+      "title": "Gimnasia Mendoza vs Independiente Rivadavia",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T15:00:00-03:00",
+      "show_from": "2026-11-07T07:00:00-03:00",
+      "show_until": "2026-11-07T18:30:00-03:00",
+      "channel_names": [
+        "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-talleres-de-cordoba-estudiantes-de-la-plata",
+      "title": "Talleres de Córdoba vs Estudiantes de La Plata",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T15:00:00-03:00",
+      "show_from": "2026-11-07T07:00:00-03:00",
+      "show_until": "2026-11-07T18:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-argentinos-juniors-huracan",
+      "title": "Argentinos Juniors vs Huracán",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T17:30:00-03:00",
+      "show_from": "2026-11-07T09:30:00-03:00",
+      "show_until": "2026-11-07T21:00:00-03:00",
+      "channel_names": [
+        "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-boca-juniors-defensa-y-justicia",
+      "title": "Boca Juniors vs Defensa y Justicia",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T17:30:00-03:00",
+      "show_from": "2026-11-07T09:30:00-03:00",
+      "show_until": "2026-11-07T21:00:00-03:00",
+      "channel_names": [
+        "TNT Sports",
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-rosario-central-estudiantes-rio-cuarto",
+      "title": "Rosario Central vs Estudiantes Río Cuarto",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T17:30:00-03:00",
+      "show_from": "2026-11-07T09:30:00-03:00",
+      "show_until": "2026-11-07T21:00:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-07-instituto-newell-s-old-boys",
+      "title": "Instituto vs Newell's Old Boys",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-07T22:00:00-03:00",
+      "show_from": "2026-11-07T14:00:00-03:00",
+      "show_until": "2026-11-08T01:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-08-central-cordoba-lanus",
+      "title": "Central Córdoba vs Lanús",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-08T19:30:00-03:00",
+      "show_from": "2026-11-08T11:30:00-03:00",
+      "show_until": "2026-11-08T23:00:00-03:00",
+      "channel_names": [
+        "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-08-central-cordoba-sde-lanus",
+      "title": "Central Córdoba SdE vs Lanús",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-08T19:30:00-03:00",
+      "show_from": "2026-11-08T11:30:00-03:00",
+      "show_until": "2026-11-08T23:00:00-03:00",
+      "channel_names": [
+        "TNT Sports Premium"
       ]
     }
   ]
