@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-05-gimnasia-la-plata-belgrano",
-      "title": "Gimnasia La Plata vs Belgrano",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-05T19:15:00-03:00",
-      "show_from": "2026-11-05T11:15:00-03:00",
-      "show_until": "2026-11-05T22:45:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-06-barracas-central-racing-club",
       "title": "Barracas Central vs Racing Club",
       "image": "imagenes/agenda.webp",
