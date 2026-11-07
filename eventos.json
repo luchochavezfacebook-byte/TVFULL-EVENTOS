@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-07-espanyol-deportivo-de-a-coruna",
-      "title": "Espanyol vs Deportivo de A Coruña",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T12:15:00-03:00",
-      "show_from": "2026-11-07T04:15:00-03:00",
-      "show_until": "2026-11-07T15:45:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-07-gimnasia-mendoza-independiente-rivadavia",
       "title": "Gimnasia Mendoza vs Independiente Rivadavia",
       "image": "imagenes/agenda.webp",
@@ -133,6 +122,94 @@
       "show_until": "2026-11-08T23:00:00-03:00",
       "channel_names": [
         "TNT Sports Premium"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-09-minnesota-vikings-buffalo-bills",
+      "title": "Minnesota Vikings vs Buffalo Bills",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-09T22:00:00-03:00",
+      "show_from": "2026-11-09T14:00:00-03:00",
+      "show_until": "2026-11-10T01:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-10-real-madrid-paris-fc",
+      "title": "Real Madrid vs Paris FC",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-10T14:30:00-03:00",
+      "show_from": "2026-11-10T06:30:00-03:00",
+      "show_until": "2026-11-10T18:00:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-10-inter-manchester-city",
+      "title": "Inter vs Manchester City",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-10T16:40:00-03:00",
+      "show_from": "2026-11-10T08:40:00-03:00",
+      "show_until": "2026-11-10T20:10:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-10-ferro-san-martin",
+      "title": "Ferro vs San Martín",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-10T22:05:00-03:00",
+      "show_from": "2026-11-10T14:05:00-03:00",
+      "show_until": "2026-11-11T01:35:00-03:00",
+      "channel_names": [
+        "TyC Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-11-juventus-ol-lyonnes",
+      "title": "Juventus vs OL Lyonnes",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-11T16:40:00-03:00",
+      "show_from": "2026-11-11T08:40:00-03:00",
+      "show_until": "2026-11-11T20:10:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-11-platense-penarol",
+      "title": "Platense vs Peñarol",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-11T20:30:00-03:00",
+      "show_from": "2026-11-11T12:30:00-03:00",
+      "show_until": "2026-11-12T00:00:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-11-new-york-knicks-cleveland-cavaliers",
+      "title": "New York Knicks vs Cleveland Cavaliers",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-11T21:00:00-03:00",
+      "show_from": "2026-11-11T13:00:00-03:00",
+      "show_until": "2026-11-12T00:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-11-houston-rockets-golden-state-warriors",
+      "title": "Houston Rockets vs Golden State Warriors",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-11T23:30:00-03:00",
+      "show_from": "2026-11-11T15:30:00-03:00",
+      "show_until": "2026-11-12T03:00:00-03:00",
+      "channel_names": [
+        "ESPN 2"
       ]
     }
   ]
