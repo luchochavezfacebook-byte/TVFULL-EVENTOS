@@ -3,61 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-06-independiente-deportivo-riestra",
-      "title": "Independiente vs Deportivo Riestra",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-06T19:15:00-03:00",
-      "show_from": "2026-11-06T11:15:00-03:00",
-      "show_until": "2026-11-06T22:45:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-06-san-lorenzo-platense",
-      "title": "San Lorenzo vs Platense",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-06T19:15:00-03:00",
-      "show_from": "2026-11-06T11:15:00-03:00",
-      "show_until": "2026-11-06T22:45:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-06-union-santa-fe-velez-sarsfield",
-      "title": "Unión Santa Fe vs Vélez Sarsfield",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-06T19:15:00-03:00",
-      "show_from": "2026-11-06T11:15:00-03:00",
-      "show_until": "2026-11-06T22:45:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-06-banfield-atletico-tucuman",
-      "title": "Banfield vs Atlético Tucumán",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-06T22:00:00-03:00",
-      "show_from": "2026-11-06T14:00:00-03:00",
-      "show_until": "2026-11-07T01:30:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-06-tigre-sarmiento",
-      "title": "Tigre vs Sarmiento",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-06T22:00:00-03:00",
-      "show_from": "2026-11-06T14:00:00-03:00",
-      "show_until": "2026-11-07T01:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-07-malaga-racing-de-santander",
       "title": "Málaga vs Racing de Santander",
       "image": "imagenes/agenda.webp",
