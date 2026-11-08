@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-07-instituto-newell-s-old-boys",
-      "title": "Instituto vs Newell's Old Boys",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T22:00:00-03:00",
-      "show_from": "2026-11-07T14:00:00-03:00",
-      "show_until": "2026-11-08T01:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-08-elche-real-betis",
       "title": "Elche vs Real Betis",
       "image": "imagenes/agenda.webp",
