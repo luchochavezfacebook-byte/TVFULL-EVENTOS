@@ -3,62 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-07-gimnasia-mendoza-independiente-rivadavia",
-      "title": "Gimnasia Mendoza vs Independiente Rivadavia",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T15:00:00-03:00",
-      "show_from": "2026-11-07T07:00:00-03:00",
-      "show_until": "2026-11-07T18:30:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-07-talleres-de-cordoba-estudiantes-de-la-plata",
-      "title": "Talleres de Córdoba vs Estudiantes de La Plata",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T15:00:00-03:00",
-      "show_from": "2026-11-07T07:00:00-03:00",
-      "show_until": "2026-11-07T18:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-07-argentinos-juniors-huracan",
-      "title": "Argentinos Juniors vs Huracán",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T17:30:00-03:00",
-      "show_from": "2026-11-07T09:30:00-03:00",
-      "show_until": "2026-11-07T21:00:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-07-boca-juniors-defensa-y-justicia",
-      "title": "Boca Juniors vs Defensa y Justicia",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T17:30:00-03:00",
-      "show_from": "2026-11-07T09:30:00-03:00",
-      "show_until": "2026-11-07T21:00:00-03:00",
-      "channel_names": [
-        "TNT Sports",
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-07-rosario-central-estudiantes-rio-cuarto",
-      "title": "Rosario Central vs Estudiantes Río Cuarto",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-07T17:30:00-03:00",
-      "show_from": "2026-11-07T09:30:00-03:00",
-      "show_until": "2026-11-07T21:00:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-07-instituto-newell-s-old-boys",
       "title": "Instituto vs Newell's Old Boys",
       "image": "imagenes/agenda.webp",
