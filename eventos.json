@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-08-central-cordoba-lanus",
-      "title": "Central Córdoba vs Lanús",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-08T19:30:00-03:00",
-      "show_from": "2026-11-08T11:30:00-03:00",
-      "show_until": "2026-11-08T23:00:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-08-central-cordoba-sde-lanus",
-      "title": "Central Córdoba SdE vs Lanús",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-08T19:30:00-03:00",
-      "show_from": "2026-11-08T11:30:00-03:00",
-      "show_until": "2026-11-08T23:00:00-03:00",
-      "channel_names": [
-        "TNT Sports Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-09-minnesota-vikings-buffalo-bills",
       "title": "Minnesota Vikings vs Buffalo Bills",
       "image": "imagenes/agenda.webp",
