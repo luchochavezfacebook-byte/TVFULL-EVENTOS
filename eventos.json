@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-10-real-madrid-paris-fc",
-      "title": "Real Madrid vs Paris FC",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-10T14:30:00-03:00",
-      "show_from": "2026-11-10T06:30:00-03:00",
-      "show_until": "2026-11-10T18:00:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-10-inter-manchester-city",
-      "title": "Inter vs Manchester City",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-10T16:40:00-03:00",
-      "show_from": "2026-11-10T08:40:00-03:00",
-      "show_until": "2026-11-10T20:10:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-10-ferro-san-martin",
-      "title": "Ferro vs San Martín",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-10T22:05:00-03:00",
-      "show_from": "2026-11-10T14:05:00-03:00",
-      "show_until": "2026-11-11T01:35:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-11-juventus-ol-lyonnes",
       "title": "Juventus vs OL Lyonnes",
       "image": "imagenes/agenda.webp",
