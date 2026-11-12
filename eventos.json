@@ -3,50 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-11-juventus-ol-lyonnes",
-      "title": "Juventus vs OL Lyonnes",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-11T16:40:00-03:00",
-      "show_from": "2026-11-11T08:40:00-03:00",
-      "show_until": "2026-11-11T20:10:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-11-platense-penarol",
-      "title": "Platense vs Peñarol",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-11T20:30:00-03:00",
-      "show_from": "2026-11-11T12:30:00-03:00",
-      "show_until": "2026-11-12T00:00:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-11-new-york-knicks-cleveland-cavaliers",
-      "title": "New York Knicks vs Cleveland Cavaliers",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-11T21:00:00-03:00",
-      "show_from": "2026-11-11T13:00:00-03:00",
-      "show_until": "2026-11-12T00:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-11-houston-rockets-golden-state-warriors",
-      "title": "Houston Rockets vs Golden State Warriors",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-11T23:30:00-03:00",
-      "show_from": "2026-11-11T15:30:00-03:00",
-      "show_until": "2026-11-12T03:00:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-11-12-turkiye-belgica",
       "title": "Türkiye vs BÉLGICA",
       "image": "imagenes/agenda.webp",
