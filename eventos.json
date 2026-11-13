@@ -3,50 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-12-turkiye-belgica",
-      "title": "Türkiye vs BÉLGICA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-12T14:00:00-03:00",
-      "show_from": "2026-11-12T06:00:00-03:00",
-      "show_until": "2026-11-12T17:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-12-czechia-espana",
-      "title": "Czechia vs ESPAÑA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-12T16:45:00-03:00",
-      "show_from": "2026-11-12T08:45:00-03:00",
-      "show_until": "2026-11-12T20:15:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-12-inglaterra-croacia",
-      "title": "INGLATERRA vs CROACIA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-12T16:45:00-03:00",
-      "show_from": "2026-11-12T08:45:00-03:00",
-      "show_until": "2026-11-12T20:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-12-italia-francia",
-      "title": "ITALIA vs FRANCIA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-12T16:45:00-03:00",
-      "show_from": "2026-11-12T08:45:00-03:00",
-      "show_until": "2026-11-12T20:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
       "id": "agenda-2026-11-13-moldova-kazakhstan",
       "title": "Moldova vs Kazakhstan",
       "image": "imagenes/agenda.webp",
