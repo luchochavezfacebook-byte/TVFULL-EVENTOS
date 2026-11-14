@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-14-velez-san-lorenzo",
-      "title": "Vélez vs San Lorenzo",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-14T11:00:00-03:00",
-      "show_from": "2026-11-14T03:00:00-03:00",
-      "show_until": "2026-11-14T14:30:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-14-boca-juniors-upcn",
       "title": "Boca Juniors vs UPCN",
       "image": "imagenes/agenda.webp",
