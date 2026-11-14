@@ -3,50 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-13-moldova-kazakhstan",
-      "title": "Moldova vs Kazakhstan",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-13T14:00:00-03:00",
-      "show_from": "2026-11-13T06:00:00-03:00",
-      "show_until": "2026-11-13T17:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-13-holanda-grecia",
-      "title": "HOLANDA vs GRECIA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-13T16:45:00-03:00",
-      "show_from": "2026-11-13T08:45:00-03:00",
-      "show_until": "2026-11-13T20:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-13-serbia-alemania",
-      "title": "SERBIA vs ALEMANIA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-13T16:45:00-03:00",
-      "show_from": "2026-11-13T08:45:00-03:00",
-      "show_until": "2026-11-13T20:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-13-slovenia-suiza",
-      "title": "Slovenia vs SUIZA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-13T16:45:00-03:00",
-      "show_from": "2026-11-13T08:45:00-03:00",
-      "show_until": "2026-11-13T20:15:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-11-13-argentina-uruguay",
       "title": "ARGENTINA vs URUGUAY",
       "image": "imagenes/agenda.webp",
