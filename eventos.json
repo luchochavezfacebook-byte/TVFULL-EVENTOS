@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-14-sonder-rosario-ferro",
-      "title": "Sonder Rosario vs Ferro",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-14T18:00:00-03:00",
-      "show_from": "2026-11-14T10:00:00-03:00",
-      "show_until": "2026-11-14T21:30:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-14-banfield-boca-juniors",
-      "title": "Banfield vs Boca Juniors",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-14T19:00:00-03:00",
-      "show_from": "2026-11-14T11:00:00-03:00",
-      "show_until": "2026-11-14T22:30:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-15-san-lorenzo-river-plate",
       "title": "San Lorenzo vs River Plate",
       "image": "imagenes/agenda.webp",
