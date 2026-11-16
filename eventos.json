@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-16-kazakhstan-slovakia",
-      "title": "Kazakhstan vs Slovakia",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-16T12:00:00-03:00",
-      "show_from": "2026-11-16T04:00:00-03:00",
-      "show_until": "2026-11-16T15:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-11-16-islandia-luxembourg",
       "title": "ISLANDIA vs Luxembourg",
       "image": "imagenes/agenda.webp",
@@ -58,6 +47,28 @@
       ]
     },
     {
+      "id": "agenda-2026-11-17-dinamarca-norway",
+      "title": "DINAMARCA vs Norway",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-17T16:45:00-03:00",
+      "show_from": "2026-11-17T08:45:00-03:00",
+      "show_until": "2026-11-17T20:15:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-17-wales-portugal",
+      "title": "Wales vs PORTUGAL",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-17T16:45:00-03:00",
+      "show_from": "2026-11-17T08:45:00-03:00",
+      "show_until": "2026-11-17T20:15:00-03:00",
+      "channel_names": [
+        "ESPN"
+      ]
+    },
+    {
       "id": "agenda-2026-11-17-dinamarca-noruega",
       "title": "Dinamarca vs Noruega",
       "image": "imagenes/agenda.webp",
@@ -81,7 +92,7 @@
     },
     {
       "id": "agenda-2026-11-17-argentina-costa-rica",
-      "title": "Argentina vs Costa Rica",
+      "title": "ARGENTINA vs COSTA RICA",
       "image": "imagenes/agenda.webp",
       "starts_at": "2026-11-17T20:00:00-03:00",
       "show_from": "2026-11-17T12:00:00-03:00",
@@ -93,13 +104,46 @@
     },
     {
       "id": "agenda-2026-11-17-chile-colombia",
-      "title": "Chile vs Colombia",
+      "title": "CHILE vs COLOMBIA",
       "image": "imagenes/agenda.webp",
       "starts_at": "2026-11-17T20:00:00-03:00",
       "show_from": "2026-11-17T12:00:00-03:00",
       "show_until": "2026-11-17T23:30:00-03:00",
       "channel_names": [
         "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-18-chelsea-paris-saint-germain",
+      "title": "Chelsea vs Paris Saint-Germain",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-18T16:40:00-03:00",
+      "show_from": "2026-11-18T08:40:00-03:00",
+      "show_until": "2026-11-18T20:10:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-18-miami-heat-milwaukee-bucks",
+      "title": "Miami Heat vs Milwaukee Bucks",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-18T21:00:00-03:00",
+      "show_from": "2026-11-18T13:00:00-03:00",
+      "show_until": "2026-11-19T00:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-18-dallas-mavericks-golden-state-warriors",
+      "title": "Dallas Mavericks vs Golden State Warriors",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-18T23:30:00-03:00",
+      "show_from": "2026-11-18T15:30:00-03:00",
+      "show_until": "2026-11-19T03:00:00-03:00",
+      "channel_names": [
+        "ESPN 2"
       ]
     }
   ]
