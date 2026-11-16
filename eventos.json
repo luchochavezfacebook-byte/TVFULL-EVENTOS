@@ -3,50 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-15-boca-juniors-sonder-rosario",
-      "title": "Boca Juniors vs Sonder Rosario",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-15T15:00:00-03:00",
-      "show_from": "2026-11-15T07:00:00-03:00",
-      "show_until": "2026-11-15T18:30:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-15-espana-inglaterra",
-      "title": "ESPAÑA vs INGLATERRA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-15T16:45:00-03:00",
-      "show_from": "2026-11-15T08:45:00-03:00",
-      "show_until": "2026-11-15T20:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-15-monteros-upcn",
-      "title": "Monteros vs UPCN",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-15T18:00:00-03:00",
-      "show_from": "2026-11-15T10:00:00-03:00",
-      "show_until": "2026-11-15T21:30:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-15-velez-ciudad",
-      "title": "Vélez vs Ciudad",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-15T21:00:00-03:00",
-      "show_from": "2026-11-15T13:00:00-03:00",
-      "show_until": "2026-11-16T00:30:00-03:00",
-      "channel_names": [
-        "Fox Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-16-kazakhstan-slovakia",
       "title": "Kazakhstan vs Slovakia",
       "image": "imagenes/agenda.webp",
