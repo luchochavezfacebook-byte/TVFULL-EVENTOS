@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-16-instituto-san-lorenzo",
-      "title": "Instituto vs San Lorenzo",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-16T22:05:00-03:00",
-      "show_from": "2026-11-16T14:05:00-03:00",
-      "show_until": "2026-11-17T01:35:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-17-dinamarca-norway",
       "title": "DINAMARCA vs Norway",
       "image": "imagenes/agenda.webp",
