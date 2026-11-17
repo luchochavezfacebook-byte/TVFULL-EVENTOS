@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-16-islandia-luxembourg",
-      "title": "ISLANDIA vs Luxembourg",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-16T14:00:00-03:00",
-      "show_from": "2026-11-16T06:00:00-03:00",
-      "show_until": "2026-11-16T17:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-16-alemania-holanda",
-      "title": "ALEMANIA vs HOLANDA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-16T16:45:00-03:00",
-      "show_from": "2026-11-16T08:45:00-03:00",
-      "show_until": "2026-11-16T20:15:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-16-grecia-serbia",
-      "title": "GRECIA vs SERBIA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-16T16:45:00-03:00",
-      "show_from": "2026-11-16T08:45:00-03:00",
-      "show_until": "2026-11-16T20:15:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-11-16-instituto-san-lorenzo",
       "title": "Instituto vs San Lorenzo",
       "image": "imagenes/agenda.webp",
