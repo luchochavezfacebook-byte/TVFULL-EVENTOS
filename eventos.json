@@ -3,29 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-17-argentina-costa-rica",
-      "title": "ARGENTINA vs COSTA RICA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-17T20:00:00-03:00",
-      "show_from": "2026-11-17T12:00:00-03:00",
-      "show_until": "2026-11-17T23:30:00-03:00",
-      "channel_names": [
-        "TyC Sports",
-        "Telefe"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-17-chile-colombia",
-      "title": "CHILE vs COLOMBIA",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-17T20:00:00-03:00",
-      "show_from": "2026-11-17T12:00:00-03:00",
-      "show_until": "2026-11-17T23:30:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-18-chelsea-paris-saint-germain",
       "title": "Chelsea vs Paris Saint-Germain",
       "image": "imagenes/agenda.webp",
@@ -145,6 +122,17 @@
       "show_until": "2026-11-23T20:30:00-03:00",
       "channel_names": [
         "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-25-boca-juniors-independiente-rivadavia",
+      "title": "Boca Juniors vs Independiente Rivadavia",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-25T21:00:00-03:00",
+      "show_from": "2026-11-25T13:00:00-03:00",
+      "show_until": "2026-11-26T00:30:00-03:00",
+      "channel_names": [
+        "ESPN Premium"
       ]
     }
   ]
