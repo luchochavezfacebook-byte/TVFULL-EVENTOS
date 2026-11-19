@@ -3,28 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-18-miami-heat-milwaukee-bucks",
-      "title": "Miami Heat vs Milwaukee Bucks",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-18T21:00:00-03:00",
-      "show_from": "2026-11-18T13:00:00-03:00",
-      "show_until": "2026-11-19T00:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-18-dallas-mavericks-golden-state-warriors",
-      "title": "Dallas Mavericks vs Golden State Warriors",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-18T23:30:00-03:00",
-      "show_from": "2026-11-18T15:30:00-03:00",
-      "show_until": "2026-11-19T03:00:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-11-19-argentina-australia",
       "title": "Argentina vs Australia",
       "image": "imagenes/agenda.webp",
