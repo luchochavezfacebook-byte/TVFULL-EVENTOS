@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-18-chelsea-paris-saint-germain",
-      "title": "Chelsea vs Paris Saint-Germain",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-18T16:40:00-03:00",
-      "show_from": "2026-11-18T08:40:00-03:00",
-      "show_until": "2026-11-18T20:10:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
       "id": "agenda-2026-11-18-miami-heat-milwaukee-bucks",
       "title": "Miami Heat vs Milwaukee Bucks",
       "image": "imagenes/agenda.webp",
@@ -36,6 +25,17 @@
       ]
     },
     {
+      "id": "agenda-2026-11-19-argentina-australia",
+      "title": "Argentina vs Australia",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-19T13:00:00-03:00",
+      "show_from": "2026-11-19T05:00:00-03:00",
+      "show_until": "2026-11-19T16:30:00-03:00",
+      "channel_names": [
+        "TyC Sports"
+      ]
+    },
+    {
       "id": "agenda-2026-11-20-velez-sarsfield-belgrano",
       "title": "Vélez Sarsfield vs Belgrano",
       "image": "imagenes/agenda.webp",
@@ -44,6 +44,28 @@
       "show_until": "2026-11-20T23:30:00-03:00",
       "channel_names": [
         "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-21-rayo-vallecano-valencia",
+      "title": "Rayo Vallecano vs Valencia",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-21T12:15:00-03:00",
+      "show_from": "2026-11-21T04:15:00-03:00",
+      "show_until": "2026-11-21T15:45:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-21-sevilla-real-betis",
+      "title": "Sevilla vs Real Betis",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-21T14:30:00-03:00",
+      "show_from": "2026-11-21T06:30:00-03:00",
+      "show_until": "2026-11-21T18:00:00-03:00",
+      "channel_names": [
+        "DSports"
       ]
     },
     {
@@ -58,6 +80,17 @@
       ]
     },
     {
+      "id": "agenda-2026-11-21-argentinos-juniors-independiente",
+      "title": "Argentinos Juniors vs Independiente",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-21T17:00:00-03:00",
+      "show_from": "2026-11-21T09:00:00-03:00",
+      "show_until": "2026-11-21T20:30:00-03:00",
+      "channel_names": [
+        "TNT Sports"
+      ]
+    },
+    {
       "id": "agenda-2026-11-21-argentinos-independiente",
       "title": "Argentinos vs Independiente",
       "image": "imagenes/agenda.webp",
@@ -66,6 +99,18 @@
       "show_until": "2026-11-21T20:30:00-03:00",
       "channel_names": [
         "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-21-atletico-mineiro-boca-juniors",
+      "title": "Atlético Mineiro vs Boca Juniors",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-21T19:30:00-03:00",
+      "show_from": "2026-11-21T11:30:00-03:00",
+      "show_until": "2026-11-21T23:00:00-03:00",
+      "channel_names": [
+        "ESPN",
+        "DSports"
       ]
     },
     {
