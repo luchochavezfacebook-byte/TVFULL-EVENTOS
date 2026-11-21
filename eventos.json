@@ -3,17 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-20-velez-sarsfield-belgrano",
-      "title": "Vélez Sarsfield vs Belgrano",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-20T20:00:00-03:00",
-      "show_from": "2026-11-20T12:00:00-03:00",
-      "show_until": "2026-11-20T23:30:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-21-rayo-vallecano-valencia",
       "title": "Rayo Vallecano vs Valencia",
       "image": "imagenes/agenda.webp",
