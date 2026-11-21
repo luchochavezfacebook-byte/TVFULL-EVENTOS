@@ -3,39 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-21-rayo-vallecano-valencia",
-      "title": "Rayo Vallecano vs Valencia",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-21T12:15:00-03:00",
-      "show_from": "2026-11-21T04:15:00-03:00",
-      "show_until": "2026-11-21T15:45:00-03:00",
-      "channel_names": [
-        "DSports 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-21-sevilla-real-betis",
-      "title": "Sevilla vs Real Betis",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-21T14:30:00-03:00",
-      "show_from": "2026-11-21T06:30:00-03:00",
-      "show_until": "2026-11-21T18:00:00-03:00",
-      "channel_names": [
-        "DSports 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-21-defensa-y-justicia-barracas-central",
-      "title": "Defensa y Justicia vs Barracas Central",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-21T15:00:00-03:00",
-      "show_from": "2026-11-21T07:00:00-03:00",
-      "show_until": "2026-11-21T18:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-21-argentinos-juniors-independiente",
       "title": "Argentinos Juniors vs Independiente",
       "image": "imagenes/agenda.webp",
