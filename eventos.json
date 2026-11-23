@@ -3,61 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-22-barcelona-villarreal",
-      "title": "Barcelona vs Villarreal",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-22T10:00:00-03:00",
-      "show_from": "2026-11-22T02:00:00-03:00",
-      "show_until": "2026-11-22T13:30:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-22-argentina-u17-mozambique-u17",
-      "title": "Argentina U17 vs Mozambique U17",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-22T12:30:00-03:00",
-      "show_from": "2026-11-22T04:30:00-03:00",
-      "show_until": "2026-11-22T16:00:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-22-liverpool-manchester-united",
-      "title": "Liverpool vs Manchester United",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-22T13:30:00-03:00",
-      "show_from": "2026-11-22T05:30:00-03:00",
-      "show_until": "2026-11-22T17:00:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-22-rosario-central-gimnasia-mendoza",
-      "title": "Rosario Central vs Gimnasia Mendoza",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-22T16:00:00-03:00",
-      "show_from": "2026-11-22T08:00:00-03:00",
-      "show_until": "2026-11-22T19:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-22-rosario-central-gimnasia-de-mendoza",
-      "title": "Rosario Central vs Gimnasia de Mendoza",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-22T16:00:00-03:00",
-      "show_from": "2026-11-22T08:00:00-03:00",
-      "show_until": "2026-11-22T19:30:00-03:00",
-      "channel_names": [
-        "ESPN Premium"
-      ]
-    },
-    {
       "id": "agenda-2026-11-22-river-plate-lanus",
       "title": "River Plate vs Lanús",
       "image": "imagenes/agenda.webp",
@@ -102,6 +47,28 @@
       ]
     },
     {
+      "id": "agenda-2026-11-23-gimnasia-la-plata-newell-s-old-boys",
+      "title": "Gimnasia La Plata vs Newell's Old Boys",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-23T17:00:00-03:00",
+      "show_from": "2026-11-23T09:00:00-03:00",
+      "show_until": "2026-11-23T20:30:00-03:00",
+      "channel_names": [
+        "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-23-levante-elche",
+      "title": "Levante vs Elche",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-23T17:00:00-03:00",
+      "show_from": "2026-11-23T09:00:00-03:00",
+      "show_until": "2026-11-23T20:30:00-03:00",
+      "channel_names": [
+        "DSports"
+      ]
+    },
+    {
       "id": "agenda-2026-11-23-gimnasia-newell-s",
       "title": "Gimnasia vs Newell’s",
       "image": "imagenes/agenda.webp",
@@ -110,6 +77,17 @@
       "show_until": "2026-11-23T20:30:00-03:00",
       "channel_names": [
         "TNT Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-24-bod-glimt-lask",
+      "title": "Bodø/Glimt vs LASK",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-24T14:45:00-03:00",
+      "show_from": "2026-11-24T06:45:00-03:00",
+      "show_until": "2026-11-24T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 2"
       ]
     },
     {
@@ -135,8 +113,8 @@
       ]
     },
     {
-      "id": "agenda-2026-11-24-como-aek-athenas",
-      "title": "Como vs AEK Athenas",
+      "id": "agenda-2026-11-24-como-aek-athens",
+      "title": "Como vs AEK Athens",
       "image": "imagenes/agenda.webp",
       "starts_at": "2026-11-24T17:00:00-03:00",
       "show_from": "2026-11-24T09:00:00-03:00",
@@ -168,6 +146,28 @@
       ]
     },
     {
+      "id": "agenda-2026-11-24-como-aek-athenas",
+      "title": "Como vs AEK Athenas",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-24T17:00:00-03:00",
+      "show_from": "2026-11-24T09:00:00-03:00",
+      "show_until": "2026-11-24T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-25-denmark-u17-argentina-u17",
+      "title": "Denmark U17 vs Argentina U17",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-25T12:30:00-03:00",
+      "show_from": "2026-11-25T04:30:00-03:00",
+      "show_until": "2026-11-25T16:00:00-03:00",
+      "channel_names": [
+        "TyC Sports"
+      ]
+    },
+    {
       "id": "agenda-2026-11-25-dinamarca-argentina",
       "title": "Dinamarca vs Argentina",
       "image": "imagenes/agenda.webp",
@@ -176,6 +176,17 @@
       "show_until": "2026-11-25T16:00:00-03:00",
       "channel_names": [
         "TyC Sports"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-25-slavia-prague-villarreal",
+      "title": "Slavia Prague vs Villarreal",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-25T14:45:00-03:00",
+      "show_from": "2026-11-25T06:45:00-03:00",
+      "show_until": "2026-11-25T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 2"
       ]
     },
     {
@@ -198,6 +209,39 @@
       "show_until": "2026-11-25T20:30:00-03:00",
       "channel_names": [
         "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-25-internazionale-stuttgart",
+      "title": "Internazionale vs Stuttgart",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-25T17:00:00-03:00",
+      "show_from": "2026-11-25T09:00:00-03:00",
+      "show_until": "2026-11-25T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-25-lille-bayern-munchen",
+      "title": "Lille vs Bayern München",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-25T17:00:00-03:00",
+      "show_from": "2026-11-25T09:00:00-03:00",
+      "show_until": "2026-11-25T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-25-paris-saint-germain-roma",
+      "title": "Paris Saint-Germain vs Roma",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-25T17:00:00-03:00",
+      "show_from": "2026-11-25T09:00:00-03:00",
+      "show_until": "2026-11-25T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 2"
       ]
     },
     {
