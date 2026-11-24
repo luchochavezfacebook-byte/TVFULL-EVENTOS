@@ -3,61 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-23-monza-fiorentina",
-      "title": "Monza vs Fiorentina",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-23T16:45:00-03:00",
-      "show_from": "2026-11-23T08:45:00-03:00",
-      "show_until": "2026-11-23T20:15:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-23-brentford-everton",
-      "title": "Brentford vs Everton",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-23T17:00:00-03:00",
-      "show_from": "2026-11-23T09:00:00-03:00",
-      "show_until": "2026-11-23T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-23-gimnasia-la-plata-newell-s-old-boys",
-      "title": "Gimnasia La Plata vs Newell's Old Boys",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-23T17:00:00-03:00",
-      "show_from": "2026-11-23T09:00:00-03:00",
-      "show_until": "2026-11-23T20:30:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-23-levante-elche",
-      "title": "Levante vs Elche",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-23T17:00:00-03:00",
-      "show_from": "2026-11-23T09:00:00-03:00",
-      "show_until": "2026-11-23T20:30:00-03:00",
-      "channel_names": [
-        "DSports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-23-gimnasia-newell-s",
-      "title": "Gimnasia vs Newell’s",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-23T17:00:00-03:00",
-      "show_from": "2026-11-23T09:00:00-03:00",
-      "show_until": "2026-11-23T20:30:00-03:00",
-      "channel_names": [
-        "TNT Sports"
-      ]
-    },
-    {
       "id": "agenda-2026-11-24-bod-glimt-lask",
       "title": "Bodø/Glimt vs LASK",
       "image": "imagenes/agenda.webp",
