@@ -3,127 +3,6 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-25-denmark-u17-argentina-u17",
-      "title": "Denmark U17 vs Argentina U17",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T12:30:00-03:00",
-      "show_from": "2026-11-25T04:30:00-03:00",
-      "show_until": "2026-11-25T16:00:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-dinamarca-argentina",
-      "title": "Dinamarca vs Argentina",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T12:30:00-03:00",
-      "show_from": "2026-11-25T04:30:00-03:00",
-      "show_until": "2026-11-25T16:00:00-03:00",
-      "channel_names": [
-        "TyC Sports"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-slavia-prague-villarreal",
-      "title": "Slavia Prague vs Villarreal",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T14:45:00-03:00",
-      "show_from": "2026-11-25T06:45:00-03:00",
-      "show_until": "2026-11-25T18:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-slavia-praha-villarreal",
-      "title": "Slavia Praha vs Villarreal",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T14:45:00-03:00",
-      "show_from": "2026-11-25T06:45:00-03:00",
-      "show_until": "2026-11-25T18:15:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-atletico-de-madrid-viking",
-      "title": "Atlético de Madrid vs Viking",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-internazionale-stuttgart",
-      "title": "Internazionale vs Stuttgart",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-lille-bayern-munchen",
-      "title": "Lille vs Bayern München",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-paris-saint-germain-roma",
-      "title": "Paris Saint-Germain vs Roma",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-inter-stuttgart",
-      "title": "Inter vs Stuttgart",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 4"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-lille-bayern-munich",
-      "title": "Lille vs Bayern Munich",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 3"
-      ]
-    },
-    {
-      "id": "agenda-2026-11-25-psg-roma",
-      "title": "PSG vs Roma",
-      "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T17:00:00-03:00",
-      "show_from": "2026-11-25T09:00:00-03:00",
-      "show_until": "2026-11-25T20:30:00-03:00",
-      "channel_names": [
-        "ESPN 2"
-      ]
-    },
-    {
       "id": "agenda-2026-11-25-philadelphia-76ers-miami-heat",
       "title": "Philadelphia 76ers vs Miami Heat",
       "image": "imagenes/agenda.webp",
@@ -165,6 +44,18 @@
       "show_until": "2026-11-26T03:25:00-03:00",
       "channel_names": [
         "ESPN 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-28-palmeiras-estudiantes-de-la-plata",
+      "title": "Palmeiras vs Estudiantes de La Plata",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-28T17:00:00-03:00",
+      "show_from": "2026-11-28T09:00:00-03:00",
+      "show_until": "2026-11-28T20:30:00-03:00",
+      "channel_names": [
+        "Fox Sports",
+        "Telefe"
       ]
     }
   ]
