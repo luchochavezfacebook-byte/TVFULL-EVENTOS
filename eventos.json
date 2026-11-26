@@ -3,47 +3,157 @@
   "timezone": "America/Argentina/Buenos_Aires",
   "events": [
     {
-      "id": "agenda-2026-11-25-philadelphia-76ers-miami-heat",
-      "title": "Philadelphia 76ers vs Miami Heat",
+      "id": "agenda-2026-11-26-river-plate-upcn",
+      "title": "River Plate vs UPCN",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T19:00:00-03:00",
-      "show_from": "2026-11-25T11:00:00-03:00",
-      "show_until": "2026-11-25T22:30:00-03:00",
+      "starts_at": "2026-11-26T11:00:00-03:00",
+      "show_from": "2026-11-26T03:00:00-03:00",
+      "show_until": "2026-11-26T14:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-austria-espana",
+      "title": "Austria vs España",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T13:00:00-03:00",
+      "show_from": "2026-11-26T05:00:00-03:00",
+      "show_until": "2026-11-26T16:30:00-03:00",
+      "channel_names": [
+        "DSports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-celta-de-vigo-bournemouth",
+      "title": "Celta de Vigo vs Bournemouth",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T14:45:00-03:00",
+      "show_from": "2026-11-26T06:45:00-03:00",
+      "show_until": "2026-11-26T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-dinamo-zagreb-bayer-04-leverkusen",
+      "title": "Dinamo Zagreb vs Bayer 04 Leverkusen",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T14:45:00-03:00",
+      "show_from": "2026-11-26T06:45:00-03:00",
+      "show_until": "2026-11-26T18:15:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-olympiakos-milan",
+      "title": "Olympiakos vs Milan",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T14:45:00-03:00",
+      "show_from": "2026-11-26T06:45:00-03:00",
+      "show_until": "2026-11-26T18:15:00-03:00",
       "channel_names": [
         "ESPN 2"
       ]
     },
     {
-      "id": "agenda-2026-11-25-boca-juniors-independiente-rivadavia",
-      "title": "Boca Juniors vs Independiente Rivadavia",
+      "id": "agenda-2026-11-26-viktoria-plzen-benfica",
+      "title": "Viktoria Plzeň vs Benfica",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T21:00:00-03:00",
-      "show_from": "2026-11-25T13:00:00-03:00",
-      "show_until": "2026-11-26T00:30:00-03:00",
+      "starts_at": "2026-11-26T14:45:00-03:00",
+      "show_from": "2026-11-26T06:45:00-03:00",
+      "show_until": "2026-11-26T18:15:00-03:00",
       "channel_names": [
-        "ESPN Premium"
+        "ESPN"
       ]
     },
     {
-      "id": "agenda-2026-11-25-oklahoma-city-thunder-minnesota-timberwolves",
-      "title": "Oklahoma City Thunder vs Minnesota Timberwolves",
+      "id": "agenda-2026-11-26-ferro-ciudad",
+      "title": "Ferro vs Ciudad",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T21:30:00-03:00",
-      "show_from": "2026-11-25T13:30:00-03:00",
-      "show_until": "2026-11-26T01:00:00-03:00",
+      "starts_at": "2026-11-26T15:00:00-03:00",
+      "show_from": "2026-11-26T07:00:00-03:00",
+      "show_until": "2026-11-26T18:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-crystal-palace-real-sociedad",
+      "title": "Crystal Palace vs Real Sociedad",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T17:00:00-03:00",
+      "show_from": "2026-11-26T09:00:00-03:00",
+      "show_until": "2026-11-26T20:30:00-03:00",
       "channel_names": [
         "ESPN 2"
       ]
     },
     {
-      "id": "agenda-2026-11-25-portland-blazers-san-antonio-spurs",
-      "title": "Portland Blazers vs San Antonio Spurs",
+      "id": "agenda-2026-11-26-juventus-omonia-nicosia",
+      "title": "Juventus vs Omonia Nicosia",
       "image": "imagenes/agenda.webp",
-      "starts_at": "2026-11-25T23:55:00-03:00",
-      "show_from": "2026-11-25T15:55:00-03:00",
-      "show_until": "2026-11-26T03:25:00-03:00",
+      "starts_at": "2026-11-26T17:00:00-03:00",
+      "show_from": "2026-11-26T09:00:00-03:00",
+      "show_until": "2026-11-26T20:30:00-03:00",
       "channel_names": [
-        "ESPN 2"
+        "ESPN"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-lyon-lillestr-m",
+      "title": "Lyon vs Lillestrøm",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T17:00:00-03:00",
+      "show_from": "2026-11-26T09:00:00-03:00",
+      "show_until": "2026-11-26T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-sunderland-jagiellonia-bia-ystok",
+      "title": "Sunderland vs Jagiellonia Białystok",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T17:00:00-03:00",
+      "show_from": "2026-11-26T09:00:00-03:00",
+      "show_until": "2026-11-26T20:30:00-03:00",
+      "channel_names": [
+        "ESPN 4"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-waiwen-san-lorenzo",
+      "title": "Waiwen vs San Lorenzo",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T18:00:00-03:00",
+      "show_from": "2026-11-26T10:00:00-03:00",
+      "show_until": "2026-11-26T21:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-sonder-rosario-boca-juniors",
+      "title": "Sonder Rosario vs Boca Juniors",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T21:00:00-03:00",
+      "show_from": "2026-11-26T13:00:00-03:00",
+      "show_until": "2026-11-27T00:30:00-03:00",
+      "channel_names": [
+        "Fox Sports 2"
+      ]
+    },
+    {
+      "id": "agenda-2026-11-26-argentina-bahamas",
+      "title": "Argentina vs Bahamas",
+      "image": "imagenes/agenda.webp",
+      "starts_at": "2026-11-26T21:30:00-03:00",
+      "show_from": "2026-11-26T13:30:00-03:00",
+      "show_until": "2026-11-27T01:00:00-03:00",
+      "channel_names": [
+        "DSports"
       ]
     },
     {
